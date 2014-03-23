@@ -22,11 +22,11 @@ nav:
   - text:Category
     url:/categories.html
   - text:Tags
-	url:/tags.html
+    url:/tags.html
   - text:About
-	url:
+    url:
   - text:RSS
-	url:/rss.xml
+    url:/rss.xml
   
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
