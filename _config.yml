@@ -8,13 +8,26 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
+title : Weiwei SUN
 tagline: Site Tagline
 author :
   name : Weiwei Sun
   email : ww.sun@outlook.com
   github : wwsun
 
+#Nav config
+nav:
+  - text:Home
+    url:/index.html
+  - text:Category
+    url:/categories.html
+  - text:Tags
+	url:/tags.html
+  - text:About
+	url:
+  - text:RSS
+	url:/rss.xml
+  
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
 # Most places will/should use BASE_PATH to make the urls
@@ -126,10 +139,3 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
-  
-
-  nav:
-	- text: Index
-	  url: /index.html
-	- text: Category
-	  url: /categories.html
