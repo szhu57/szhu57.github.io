@@ -24,7 +24,8 @@ nav:
   - text:Tags
     url:/tags.html
   - text:About
-    url:
+    url:/index.html
+#waiting for creating it
   - text:RSS
     url:/rss.xml
   
