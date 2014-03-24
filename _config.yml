@@ -8,26 +8,12 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Weiwei SUN
-tagline: Site Tagline
+title : Well's Coulum
+tagline: who loves technology and writing
 author :
-  name : Weiwei Sun
+  name : Weiwei SUN
   email : ww.sun@outlook.com
   github : wwsun
-
-#Nav config
-nav:
-  - text:Home
-    url:/index.html
-  - text:Category
-    url:/categories.html
-  - text:Tags
-    url:/tags.html
-  - text:About
-    url:/index.html
-#waiting for creating it
-  - text:RSS
-    url:/rss.xml
   
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
