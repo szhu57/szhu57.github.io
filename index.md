@@ -17,17 +17,17 @@ You can follow me in Sina Weibo [well](http://weibo.com/swwol/home)
 ## Posts with brief
 
 {% for post in site.posts %}
-	<div class="article">
-        <h3 class="title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
-        <article class="rexp">
-            <p>{{ post.excerpt }}</p>
-        </article>
-        <a href="{{ site.url }}{{ post.url }}" class="more"><i class="icon-link"></i></a>
-        <div class="info">
-            <span class="info-title"><i class="icon-calendar"></i> Published: </span>
-            <span class="info-date">{{ post.date | date_to_string }}</span>
-        </div>
+<div class="article">
+    <h3 class="title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
+    <article class="rexp">
+    <p>{{ post.excerpt }}</p>
+    </article>
+    <a href="{{ site.url }}{{ post.url }}" class="more"><i class="icon-link"></i></a>
+    <div class="info">
+        <span class="info-title"><i class="icon-calendar"></i> Published: </span>
+        <span class="info-date">{{ post.date | date_to_string }}</span>
     </div>
+</div>
 {% endfor %}
 
 
