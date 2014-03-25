@@ -1,32 +1,35 @@
 # This is the default format. 
-# For more see: http://jekyllrb.com/docs/permalinks/
-permalink: /:categories/:year/:month/:day/:title 
+# For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink: /:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-pygments: true
+auto: true
+pygments: false
+markdown: rdiscount
+paginate: 6
+description_length: 200
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Well's Coulum
-tagline: who loves technology and writing
+title : 午夜咖啡
+tagline: "Jolestar's Blog"
 author :
-  name : Weiwei SUN
-  email : ww.sun@outlook.com
-  github : wwsun
-  weibo: http://weibo.com/swwol/home
-  douban: http://www.douban.com/people/swwol32/
-  lofter: http://wwsun.lofter.com/
-  
+  name : Jolestar
+  email : jolestar at gmail.com
+  github : jolestar
+  twitter : jolestar
+  feedburner : jolestar
+
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
 # Most places will/should use BASE_PATH to make the urls
 #
 # If you have set a CNAME (pages.github.com) set your custom domain here.
-# Else if you are pushing to username.github.io, replace with your username.
+# Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://wwsun.github.com
+production_url : http://jolestar.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -41,21 +44,21 @@ JB :
   #   DO NOT SET BASE_PATH 
   #   (urls will be prefixed with "/" and work relatively)
   #
-  # GitHub Pages (http://username.github.io)
+  # GitHub Pages (http://username.github.com)
   #   DO NOT SET BASE_PATH 
   #   (urls will be prefixed with "/" and work relatively)
   #
-  # GitHub Project Pages (http://username.github.io/project-name)
+  # GitHub Project Pages (http://username.github.com/project-name)
   #
   #   A GitHub Project site exists in the `gh-pages` branch of one of your repositories.
-  #  REQUIRED! Set BASE_PATH to: http://username.github.io/project-name
+  #  REQUIRED! Set BASE_PATH to: http://username.github.com/project-name
   #
   # CAUTION:
   #   - When in Localhost, your site will run from root "/" regardless of BASE_PATH
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : http://wwsun.github.io
+  BASE_PATH : false
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
@@ -65,14 +68,13 @@ JB :
   #   http://s3.amazonaws.com/yoursite/themes/watermelon
   #   /assets
   #
-
   ASSET_PATH : false
 
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change them here if needed.
   #
   archive_path: /archive.html
-  categories_path : /categories.html
+  #categories_path : /categories.html
   tags_path : /tags.html
   atom_path : /atom.xml
   rss_path : /rss.xml
@@ -82,7 +84,7 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : disqus
+    provider : weibo
     disqus :
       short_name : jekyllbootstrap
     livefyre :
@@ -94,6 +96,9 @@ JB :
       num_posts: 5
       width: 580
       colorscheme: light
+    weibo :
+      appkey : 2673137117
+      ralateuid : 1648815335
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
@@ -102,14 +107,11 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-1268034-7'
     getclicky :
       site_id : 
     mixpanel :
         token : '_MIXPANEL_TOKEN_'
-    piwik :
-        baseURL : 'myserver.tld/piwik' # Piwik installation address (without protocol)
-        idsite : '1'                   # the id of the site on Piwik
 
   # Settings for sharing helper. 
   # Sharing is for things like tweet, plusone, like, reddit buttons etc.
@@ -117,7 +119,7 @@ JB :
   # Set 'provider' to false to turn sharing off globally.
   #
   sharing :
-    provider : false
+    provider : custom
     
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:
@@ -129,3 +131,4 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
+  
