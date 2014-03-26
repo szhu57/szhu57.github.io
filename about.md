@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "About"
-tagline: "Your are what you read"
+title: "About Me"
+tagline: 
 description: ""
 group: "navigation"
 ---
