@@ -15,13 +15,9 @@ Over the past couple of years, cloud applications like Google Docs and Force.com
 
 <!--more-->
 
-The essential meaning of cloud computing is based on Han’s paper which is the most frequently cited：
-
-> “a model for enabling convenient, on demand network access to a shared pool of configurable computing resources (e.g. network, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction” (Han, 2010, p. 88). 
+The essential meaning of cloud computing is based on Han’s paper which is the most frequently cited：“a model for enabling convenient, on demand network access to a shared pool of configurable computing resources (e.g. network, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction” (Han, 2010, p. 88). 
     
-However, cloud computing is not simply a new set of technologies and business models, as Kushida, Muarray, and Zysman (2012) in their paper contended that
-
-> “cloud computing is an innovation ecosystem, production platform, and global marketplace”.
+However, cloud computing is not simply a new set of technologies and business models, as Kushida, Muarray, and Zysman (2012) in their paper contended that “cloud computing is an innovation ecosystem, production platform, and global marketplace”.
 
 Therefore, cloud computing is different from traditional grid computing or utility computing, and it has ability to sweep the business world. Furthermore, cloud computing has a strong possibility to be part of people’s life as well as electricity or running-water.
 
@@ -55,15 +51,15 @@ To improve the performance of cloud computing, Matrens and Teuteberg (2011) in t
 In conclusion, costs of cloud computing will be affordable for enterprises, companies can get a high return on investment (ROI), and the consolidation of computing facilities is beneficial to the ecosystem. Cloud computing has a significant potential to change the future direction of current information technology, and that failure is likely if no action is taken by companies, especially the emerging corporations. Both emerging companies and larger companies should catch the chance of this technological evolution. Therefore, cloud computing should be the future framework for enterprise information and communications technology. However, further studies should identify potential problems which are related to the data control and service quality, the related policies in different countries should also be considered.
 
 ###References
-> Bidgoli, H. (2011). Successful Introduction of Cloud Computing into your Organization: A Six-Step Conceptual Model.	International Information Management Association,20 (1), 21-38.				
-> Han,	Y. (2010). On the clouds: a new way of computing. Information Technology and Libraries, 29(2), 87-92.			
-> Khan, K.M. & Malluhi, Q. (2010). Establishing Trust in Cloud. IEEE Computer Society, 12(5), 20-27.				
-> Kushida, K., Muarray, J. & Zysman, J. (2012). The Gathering Storm: Analyzing the Cloud Computing Ecosystem and Implications for Public Policy. Digiworld Economic Journal, 85, 63-86.			
-> Lee,	Y.C. & Zomaya, A.Y. (2010). Energy efficient utilization of resources in cloud computing systems.	Springer, 60(2), 268-280.			
-> Matrens, B. & Teuteberg, F. (2011). Decision-making in cloud computing environments: A cost and risk based approach. Springer, 14(4), 871-893.		
-> Shamsi, j., Khojaye, M.A. & Qasmi, M.A. (2013). Data-Intensive Cloud Computing: Requirements, Expectations, Challenges, and Solutions. Springer, 11(2), 281-310.
-> Wittmann, A. (2010). Our Maturing View of Cloud Computing. Information Week, 1267, 50-51.				
-> Yang, S.Q. (2012). Move into the Cloud: shall we?. Library Hi-Tech News, 1, 4-7.				
+Bidgoli, H. (2011). Successful Introduction of Cloud Computing into your Organization: A Six-Step Conceptual Model.	International Information Management Association,20 (1), 21-38.				
+Han,	Y. (2010). On the clouds: a new way of computing. Information Technology and Libraries, 29(2), 87-92.			
+Khan, K.M. & Malluhi, Q. (2010). Establishing Trust in Cloud. IEEE Computer Society, 12(5), 20-27.				
+Kushida, K., Muarray, J. & Zysman, J. (2012). The Gathering Storm: Analyzing the Cloud Computing Ecosystem and Implications for Public Policy. Digiworld Economic Journal, 85, 63-86.			
+Lee,	Y.C. & Zomaya, A.Y. (2010). Energy efficient utilization of resources in cloud computing systems.	Springer, 60(2), 268-280.			
+Matrens, B. & Teuteberg, F. (2011). Decision-making in cloud computing environments: A cost and risk based approach. Springer, 14(4), 871-893.		
+Shamsi, j., Khojaye, M.A. & Qasmi, M.A. (2013). Data-Intensive Cloud Computing: Requirements, Expectations, Challenges, and Solutions. Springer, 11(2), 281-310.
+Wittmann, A. (2010). Our Maturing View of Cloud Computing. Information Week, 1267, 50-51.				
+Yang, S.Q. (2012). Move into the Cloud: shall we?. Library Hi-Tech News, 1, 4-7.				
 
 
 > Written by [Weiwei SUN](https://weibo.com/swwol).
