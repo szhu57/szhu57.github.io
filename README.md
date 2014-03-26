@@ -1,11 +1,8 @@
 #  Introduce
 
-this is jolestar's blog git repository.
+this is well's blog git repository.
+Your can visit my blog by the following address:[wwsun.githubio](http://wwsun.github.io)
 
 base on [Jekyll-Bootstrap][] , add some custom feature, more detail please see <http://jolestar.com/use-jekyll-as-blog/>.
 
-you can visit by <http://jolestar.com> or <http://jolestar.github.com>
-
-
-
-[Jekyll-Bootstrap]: <http://jekyllbootstrap.com> "Jekyll-Bootstrap"
+The UI is supported by <http://jolestar.com>
