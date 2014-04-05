@@ -3,8 +3,8 @@ layout: post
 title: "协同过滤与推荐系统"
 author: Weiwei
 tags:
-  - cloud computing
-  - critical review
+  - Collaborative filtering
+  - Recommending system
 ---
 > 本文只是对协同过滤的一个简单的知识总结，对该方面知识的学习，可参考《推荐系统实践》、《集体智慧编程》。这里并不给出原因，而只是一个该方面知识点的简单应用。通过这些简单的应用再反过来学习相关的知识点，应该能提升很大的兴趣。
 
