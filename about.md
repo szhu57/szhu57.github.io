@@ -28,3 +28,6 @@ group: "navigation"
 [lofter]: http://wwsun.lofter.com
 [github]: http://github.com/wwsun
 [douban]: http://www.douban.com/people/swwol32/
+
+####我最近读过的书
+<script type="text/javascript" src="http://www.douban.com/service/badge/swwol32/?selection=latest&amp;picsize=medium&amp;show=collection&amp;n=18&amp;cat=book&amp;columns=6"></script>
