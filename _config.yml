@@ -11,14 +11,18 @@ desc: 这里写的不是博客，而是分享的情怀
 
 custom:
     category:
-        default: Blog
-        another: Another 
+        default: Life
+        knowledge: Knowledge
+	Share: share
     categories:
       - name:  default
-        title: Blog
+        title: Life
 
-      - name:  another
-        title: Another 
+      - name:  knowledge
+        title: Knowledge
+
+      - name:  share
+        title: Share
 meta:
     author:
         name: Weiwei SUN

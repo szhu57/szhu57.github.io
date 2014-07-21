@@ -1,11 +1,7 @@
 ---
 layout: post
 title: 用MacType来改变你的Windows字体
-author: well
-tags:
-  - MACTYPE
-  - Windows
-  - Font
+category: share
 ---
 
 Windows的字体渲染效果真的很差，这段时间一直在找一个能够改善Windows下的字体渲染效果的方法。
