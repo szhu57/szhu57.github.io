@@ -1,5 +1,8 @@
 #  BLOG Introduction
 
+###[2014-07-21]
+A new UI...to be continued...
+
 ###[2014-07-20]
 Hello guys, this is my personal blog established in Github and supported by Jekyll-Bootstrap. I'm glad to be here and share the experience about my life and learning knowledge. Months ago, I maintained my blog at CSND.net, however, I don't like the restriction of the blog platform. Another way, a new blog system developed by myself is on the way, it will be built some days later because of my busy university life.
 
