@@ -13,16 +13,13 @@ custom:
     category:
         default: Life
         knowledge: Knowledge
-	Share: share
     categories:
       - name:  default
         title: Life
 
       - name:  knowledge
         title: Knowledge
-
-      - name:  share
-        title: Share
+        
 meta:
     author:
         name: Weiwei SUN
