@@ -44,8 +44,8 @@
 			<figcaption><strong>{{ site.meta.author.name }}</strong></figcaption>
 		</figure>
 		<p>爱阅读、科技，当然还有摄影</p>
-		<h3><a href="/about.md">Profile</a></h3>
-		<h3><a href="/projects.md">Projects</h3>
+		<h3><a href="/about.html">Profile</a></h3>
+		<h3><a href="/projects.html">Projects</h3>
 	</div>
 	
 	<div class="block block-license">
