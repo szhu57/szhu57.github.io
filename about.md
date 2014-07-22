@@ -1,12 +1,7 @@
 ---
 layout: page
 title: "About Me"
-tagline: 
-description: ""
-group: "navigation"
 ---
-{% include JB/setup %}
-
 ####About ME
 >![well](http://en.gravatar.com/avatar/48b4b2d677d28780288ab93737230019)
 
