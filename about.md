@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "About Me"
 ---
 ###About ME
@@ -9,13 +9,11 @@ title: "About Me"
 Born in 1990, now a student of Southeast University, and also a student of Monash University(Australia), double master degree of Computer Technology and Information Technology. 
 
 Loving technology, programming, reading, and photographing. During the undergraduate, I majored Digital Media Technology, which is focused on the combination of technology and art, in addition to the computer courses, there are many design courses should be learned, like drawing, coloring, and 3D modeling.
-    
-<br />    
+
 
 ###Statement
 Please adding the source link if you want to reprint the articles from my blog.
     
-<br />    
     
 ###Contact ME
 * Find me in [SINA Weibo][weibo]
@@ -27,8 +25,7 @@ Please adding the source link if you want to reprint the articles from my blog.
 [lofter]: http://wwsun.lofter.com
 [github]: http://github.com/wwsun
 [douban]: http://www.douban.com/people/swwol32/
-    
-<br />    
+
     
 ###Latest READING
 <script type="text/javascript" src="http://www.douban.com/service/badge/swwol32/?selection=latest&amp;picsize=medium&amp;show=collection&amp;n=18&amp;cat=book&amp;columns=6"></script>
