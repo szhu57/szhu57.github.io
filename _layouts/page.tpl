@@ -27,11 +27,11 @@
 	
 	<nav class="block">
 		<ul>
-		{% for category in site.custom.categories %}<li class="{{ category.name }}"><a href="/category/{{ category.name }}/">{{ category.title }}</a></li>
-		{% endfor %}
+			<li><a href="/about.html">Profile</a></li>
+            <li><a href="/projects.html">Projects</a></li>
 		</ul>
 	</nav>
-	
+
 	<form action="/search/" class="block block-search">
 		<h3>Search</h3>
 		<p><input type="search" name="q" placeholder="Search" /></p>
@@ -44,10 +44,17 @@
 			<figcaption><strong>{{ site.meta.author.name }}</strong></figcaption>
 		</figure>
 		<p>爱阅读、科技，当然还有摄影</p>
-		<h3><a href="/about.html">Profile</a></h3>
-		<h3><a href="/projects.html">Projects</h3>
+		
 	</div>
 	
+    <div class="block">
+    	<h3>Categories</h3>
+    	<ul>
+		{% for category in site.custom.categories %}<li class="{{ category.name }}"><a href="/category/{{ category.name }}/">{{ category.title }}</a></li>
+		{% endfor %}
+		</ul>
+    </div>
+    
 	<div class="block block-license">
 		<h3>Copyright</h3>
 		<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/2.5/cn/" target="_blank" class="hide-target-icon" title="Copyright declaration of site content"><img alt="知识共享许可协议" src="http://i.creativecommons.org/l/by-nc-nd/2.5/cn/88x31.png" /></a></p>
