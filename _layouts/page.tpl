@@ -43,7 +43,9 @@
 			{% if site.meta.author.gravatar %}<img src="{{ site.meta.gravatar}}{{ site.meta.author.gravatar }}?s=48" />{% endif %}
 			<figcaption><strong>{{ site.meta.author.name }}</strong></figcaption>
 		</figure>
-		<p>爱咖啡，电影还有女人.</p>
+		<p>爱阅读、科技，当然还有摄影</p>
+		<h3><a href="/about.md">Profile</a></h3>
+		<h3><a href="/projects.md">Projects</h3>
 	</div>
 	
 	<div class="block block-license">
@@ -51,11 +53,13 @@
 		<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/2.5/cn/" target="_blank" class="hide-target-icon" title="Copyright declaration of site content"><img alt="知识共享许可协议" src="http://i.creativecommons.org/l/by-nc-nd/2.5/cn/88x31.png" /></a></p>
 	</div>
 	
+	<!--
 	{% if site.meta.author.github %}
 	<div class="block block-fork">
 		<a href="https://github.com/{{ site.meta.author.github }}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>
 	</div>
 	{% endif %}
+	-->
 	
 	<div class="block block-thank">
 		<h3>Powered by</h3>
