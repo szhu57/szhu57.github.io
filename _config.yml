@@ -12,12 +12,12 @@ desc: 这里写的不是博客，而是分享的情怀
 custom:
     category:
         default: Life
-        knowledge: Knowledge
+        another: Knowledge
     categories:
       - name:  default
         title: Life
 
-      - name:  knowledge
+      - name:  another
         title: Knowledge
         
 meta:
