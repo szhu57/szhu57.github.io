@@ -18,18 +18,16 @@
 	{{ content }}
 
 	<footer>
-		<p>&copy; Since 2012</p>
+		<p>&copy; Since 2013</p>
 	</footer>
 </div>
 
 <aside>
 	<h2><a href="/">{{ site.name }}</a><a href="/feed.xml" class="feed-link" title="Subscribe"><img src="http://blog.rexsong.com/wp-content/themes/rexsong/icon_feed.gif" alt="RSS feed" /></a></h2>
 	
-	<nav class="block">
-		<ul>
-			<li><a href="/about.html">Profile</a></li>
-            <li><a href="/projects.html">Projects</a></li>
-		</ul>
+	<nav class="block block-about">
+		<h3><a href="/about.html">Profile</a></h3>
+        <h3><a href="/projects.html">Projects</a></h3>		
 	</nav>
 
 	<form action="/search/" class="block block-search">
@@ -47,13 +45,13 @@
 		
 	</div>
 	
-    <div class="block">
+    <nav class="block">
     	<h3>Categories</h3>
     	<ul>
 		{% for category in site.custom.categories %}<li class="{{ category.name }}"><a href="/category/{{ category.name }}/">{{ category.title }}</a></li>
 		{% endfor %}
 		</ul>
-    </div>
+    </nav>
     
 	<div class="block block-license">
 		<h3>Copyright</h3>
