@@ -1,14 +1,9 @@
 ---
 layout: post
-title: Regular Expression in Python
-author: Weiwei
-tags:
-  - regular expression
-  - python
+title: Python正则表达式入门
+category: knowledge
 ---
-> Abstract: Regular expressions are a powerful language for matching text patterns. The python "re" module provides regular expression support.
 
-<!--more-->
 ####Introduction:
 In Python a regular expression search is typically written as:
     
@@ -23,6 +18,8 @@ After search always have a if-statement, following example which searches for th
 	    print 'found', match.group() ## 'found word:cat'
 	else:
 	    print 'did not find'
+
+<!--more-->
 
 The code match = re.search(pat, str) stores the search result in a variable named "match". Then the if-statement tests the match -- if true the search succeeded and match.group() is the matching text (e.g. 'word:cat'). 
 

@@ -1,18 +1,10 @@
 ---
 layout: post
-title: "Critic Review: Cloud computing"
-author: Weiwei
-tags:
-  - cloud computing
-  - critical review
+title: Should cloud computing become the future framework for enterprise information and communications technology (ICT)?
+category: knowledge
 ---
+> This is a critical review which is written during the Monash English Bridge, and also a long article written by myself using English.
 
-> TIP: This essay was wrote during the Monash English Bridge(MEB) time, also this is my first long essay written in English.
-
-> Abstract: Over the past couple of years, cloud applications like Google Docs and Force.com have come out of the closet and declared their value. Cloud computing provides on-demand use of cloud provider’s information technology (IT) infrastructures on a pay-per-use basis. Owing to the elasticity of cloud services, businesses are finding it attractive to adopt cloud computing. This essay will argue that cloud computing should become the future framework for enterprise information and communications technology. Firstly, this essay will define cloud computing, and then present three reasons why enterprises should use cloud services: to reduce the cost of IT operation, to afford powerful computing power for data-intensive background processing, and to provide energy-efficient and environment-friendly utilization of resources. Lastly, this essay will analyse the unsolved issues of cloud computing.
-<!--more-->
-
-###Title: Should cloud computing become the future framework for enterprise information and communications technology (ICT)?
 
 Over the past couple of years, cloud applications like Google Docs and Force.com have come out of the closet and declared their value. Cloud computing provides on-demand use of cloud provider’s information technology (IT) infrastructures on a pay-per-use basis. Owing to the elasticity of cloud services, businesses are finding it attractive to adopt cloud computing. This essay will argue that cloud computing should become the future framework for enterprise information and communications technology. Firstly, this essay will define cloud computing, and then present three reasons why enterprises should use cloud services: to reduce the cost of IT operation, to afford powerful computing power for data-intensive background processing, and to provide energy-efficient and environment-friendly utilization of resources. Lastly, this essay will analyse the unsolved issues of cloud computing.
 

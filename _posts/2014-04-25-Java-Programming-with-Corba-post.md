@@ -1,11 +1,10 @@
 ---
 layout: post
-title: Java programming with corba
-author: Weiwei
-tags:
-  - corba
+title: 基于Java的CORBA编程入门
+category: knowledge
 ---
-> Abstract: Common Object Request Broker Architecture (CORBA), which allows objects written in a variety of programming languages to be accessed by client programs which themselves may be written in a variety of programming languages. Corba is a product of OMG (Object Management Group).
+####Abstract:
+Common Object Request Broker Architecture (CORBA), which allows objects written in a variety of programming languages to be accessed by client programs which themselves may be written in a variety of programming languages. Corba is a product of OMG (Object Management Group).
 
 <!--more-->
 ####Basics:

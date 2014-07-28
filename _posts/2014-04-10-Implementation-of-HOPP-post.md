@@ -1,12 +1,9 @@
 ---
 layout: post
-title: Implementation of the design pattern of HOPP
-author: Weiwei
-tags:
-  - java
-  - hopp
+title: Simple Introduction to HOPP Design Pattern
+category: knowledge
 ---
-> Problem: Sometimes objects must appear in more than one computing context (that is, address space.) How can we make difference one and multiple address spaces (for example, single versus distributed processing) transparent? This post will introduced a FTP program which using the design pattern named HOPP (Half Object Plus Protocol).    
+Sometimes objects must appear in more than one computing context (that is, address space.) How can we make difference one and multiple address spaces (for example, single versus distributed processing) transparent? This post will introduced a FTP program which using the design pattern named HOPP (Half Object Plus Protocol).    
 
 <!--more-->
 ####solution:
