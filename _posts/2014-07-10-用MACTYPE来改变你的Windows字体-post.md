@@ -14,4 +14,4 @@ MacType 是基于一个日本人的 GDI++ 的开源项目开发的，GDI++可以
 
 ####下载地址
 - 介绍信息：<http://www.iplaysoft.com/mactype.html>
-- 下载地址：<ttp://mactype.googlecode.com>
+- 下载地址：<http://mactype.googlecode.com>
