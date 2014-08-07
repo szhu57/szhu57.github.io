@@ -1,11 +1,12 @@
 ﻿<!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" xmlns:wb="http://open.weibo.com/wb">
 <head>
 <meta charset="utf-8" />
 <meta name="author" content="{{ site.meta.author.name }}" />
 <meta name="keywords" content="{{ page.tags | join: ',' }}" />
 <title>{{ site.name }}{% if page.title %} / {{ page.title }}{% endif %}</title>
 <link href="http://{{ site.host }}/feed.xml" rel="alternate" title="{{ site.name }}" type="application/atom+xml" />
+<script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
 <link rel="stylesheet" type="text/css" href="/assets/css/site.css" />
 <link rel="stylesheet" type="text/css" href="/assets/css/code/github.css" />
 {% for style in page.styles %}<link rel="stylesheet" type="text/css" href="{{ style }}" />
@@ -37,15 +38,12 @@
 	
 	<div class="block block-about">
 		<h3>About</h3>
-		<!--
 		<figure>
 			{% if site.meta.author.gravatar %}<img src="{{ site.meta.gravatar}}{{ site.meta.author.gravatar }}?s=48" />{% endif %}
 			<figcaption><strong>{{ site.meta.author.name }}</strong></figcaption>
 		</figure>
-		-->
 		<p>爱阅读、科技，当然还有摄影</p>
-
-		<iframe width="100%" height="400" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=400&fansRow=2&ptype=1&speed=0&skin=1&isTitle=0&noborder=0&isWeibo=1&isFans=0&uid=1252228384&verifier=7afc8484&dpc=1"></iframe>
+		<wb:follow-button uid="1252228384" type="red_3" width="100%" height="24" ></wb:follow-button>
 		
 	</div>
 	
