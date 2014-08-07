@@ -37,11 +37,15 @@
 	
 	<div class="block block-about">
 		<h3>About</h3>
+		<!--
 		<figure>
 			{% if site.meta.author.gravatar %}<img src="{{ site.meta.gravatar}}{{ site.meta.author.gravatar }}?s=48" />{% endif %}
 			<figcaption><strong>{{ site.meta.author.name }}</strong></figcaption>
 		</figure>
+		-->
 		<p>爱阅读、科技，当然还有摄影</p>
+
+		<iframe width="100%" height="400" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=400&fansRow=2&ptype=1&speed=0&skin=1&isTitle=0&noborder=0&isWeibo=1&isFans=0&uid=1252228384&verifier=7afc8484&dpc=1"></iframe>
 		
 	</div>
 	
