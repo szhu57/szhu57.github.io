@@ -23,7 +23,7 @@ behaves: a network of web pages (a virtual state-machine), where the user progre
 application by selecting links (state transitions), resulting in the next page (representing the next state of
 the application) being transferred to the user and rendered for their use.
 
-单独翻译这三个词的意思可以理解为：Representational即表现出来的资源；State Transfer即状态转移，通过在所表现的资源间的交互实现状态转移。
+单独翻译这三个词的意思可以理解为：Representational即表现出来的资源，即任一种MIME类型；State为客户端的状态，State Transfer即状态转移，通过Hyperlink实现状态转移。
 
 ###REST是一种风格，而不是一个标准
 需要注意的是，REST不是一个标准，而只是一个设计web应用的风格，或软件的设计模式，同MVC一样。因此，你可以通过理解这种设计风格，从而设计出REST风格的web services, 我们也称RESTful Web Services。如果对其感兴趣，Ruby on rails是非常值得尝试的。
