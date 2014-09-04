@@ -20,6 +20,20 @@ jQuery is a lightweight, "write less, do more", JavaScript library. The purpose 
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
+###Test and debug
+
+1. using the debug tool provided by the browser
+2. Right click in your web page, and then choose "Inspect Element"
+3. Go and choose "Console"
+4. In the command pad, you can input your Jquery code to test and debug
+5. Check the JQuery function:
+
+	$.fn.FUNCTION_NAME
+
+6. Check the JQuery Selector:
+
+	$("#id")
+
 ###Syntax
 
 The jQuery syntax is tailor made for selecting HTML elements and performing some action on the element(s). Basic syntax is: ***$(selector).action()***
