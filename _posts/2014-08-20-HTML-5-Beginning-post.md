@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Beginning HTML5 New Features
-category: knowledge
+category: technology
 ---
 ###New Features Added to HTML5
 

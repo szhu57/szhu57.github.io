@@ -11,14 +11,18 @@ desc: 这里写的不是博客，而是分享的情怀
 
 custom:
     category:
-        default: Life
-        another: Knowledge
+        life: Life
+        technology: Technology
+	database: Database
     categories:
-      - name:  default
+      - name:  life
         title: Life
 
-      - name:  another
-        title: Knowledge
+      - name:  technology
+        title: Technology
+
+      - name: database
+        title: Database
         
 meta:
     author:

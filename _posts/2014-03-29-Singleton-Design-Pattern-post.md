@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java Singleton Design Pattern
-category: knowledge
+category: technology
 ---
 Singleton pattern is one of the most commonly used patterns in Java. It is used to control the number of objects created by preventing external instantiation and modification. That is to say, at any time there can only be one instance of singleton (object) created by the JVM.
 

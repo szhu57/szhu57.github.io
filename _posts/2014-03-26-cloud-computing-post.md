@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Should cloud computing become the future framework for enterprise information and communications technology (ICT)?
-category: knowledge
+category: technology
 ---
 > This is a critical review which is written during the Monash English Bridge, and also a long article written by myself using English.
 
