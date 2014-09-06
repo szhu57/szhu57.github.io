@@ -13,7 +13,7 @@ custom:
     category:
         life: Life
         technology: Technology
-database: Database
+        database: Database
     categories:
       - name:  life
         title: Life
