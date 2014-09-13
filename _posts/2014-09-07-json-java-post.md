@@ -32,8 +32,8 @@ JSON的语法格式非常简单，可以简单的概括如下：
 				"value": WEIGHT
 			},
 			{
-				"source": INDEX
-				"target": INDEX
+				"source": INDEX，
+				"target": INDEX，
 				"value": WEIGHT
 			}	
 		]
