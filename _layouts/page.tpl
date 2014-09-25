@@ -29,7 +29,7 @@
 	<nav class="block block-about">
 		<h3><a href="/about.html">Profile</a></h3>
         <h3><a href="/projects.html">Projects</a></h3>
-		<h3><a href="/exp/experiences.html">Experiences</a></h3>
+		<h3><a href="/exp/index.html">Experiences</a></h3>
 	</nav>
 
 	<form action="/search/" class="block block-search">
