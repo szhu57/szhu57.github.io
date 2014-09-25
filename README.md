@@ -1,5 +1,8 @@
 #  BLOG Introduction
 
+###[2014-09-25]
+Add a new function, which put my personal experiences into my blog as a part of my website. All the relevant experiences are mentioned to rich my website.
+
 ###[2014-07-22]
 A new UI...thanks to Github, I modified the simple and concise template supported by [CXLCYM](http://cxlcym.github.io/) to restart my blog. The detail is:
 
