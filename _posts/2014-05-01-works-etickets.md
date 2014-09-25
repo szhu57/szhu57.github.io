@@ -1,12 +1,12 @@
 ---
 title: ETickets，一个分布式机票订阅服务
 category: works
-icon: users
+icon: code-fork
 gitrepo: monash-etickets
-tags: [Java, 分布式系统, Socket, RMI, CORBA]
+tags: [Java, 分布式, RMI, CORBA]
 figures:
   - src: "/img/project/etickets.jpg"
-    height: 200
+    height: 230
 public: false
 ---
 

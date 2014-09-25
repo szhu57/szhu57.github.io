@@ -5,8 +5,8 @@ icon: code-fork
 gitrepo: monash-msearch
 tags: [Web service, RESTful, Bootstrap]
 figures:
-  - src: "/img/project/msearcg.jpg"
-    height: 200
+  - src: "/img/project/msearch.jpg"
+    height: 230
 public: false
 ---
 
