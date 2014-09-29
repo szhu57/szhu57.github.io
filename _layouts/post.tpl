@@ -1,5 +1,5 @@
 ---
-layout: list
+layout: index
 
 pageClass: page-type-post
 
