@@ -5,7 +5,7 @@ pageClass: page-type-post
 
 ---
 
-<div  class="page-header"><a href="/">{{ site.name }}</a><samll>{{ page.title }}</small></div>
+<div  class="page-header">/ <a href="/">{{ site.name }}</a> / <samll>{{ page.title }}</small></div>
 
 <article>
 	<h2><a href="{{ page.url }}">{{ page.title }}</a></h2>

@@ -11,14 +11,16 @@
        
         <link href="http://{{ site.host }}/feed.xml" rel="alternate" title="{{ site.name }}" type="application/atom+xml" />
 
+        <link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="/assets/css/blog-home.css" rel="stylesheet" type="text/css"/>
+
         <link rel="stylesheet" type="text/css" href="/assets/css/site.css" />
         <link rel="stylesheet" type="text/css" href="/assets/css/code/github.css" />
         {% for style in page.styles %}
             <link rel="stylesheet" type="text/css" href="{{ style }}" />
         {% endfor %}
 
-        <link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="/assets/css/blog-home.css" rel="stylesheet" type="text/css"/>
+        
     </head>
     <body class="{{ page.pageClass }}">
         <!-- Navigation -->
