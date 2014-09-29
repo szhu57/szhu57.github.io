@@ -12,7 +12,8 @@
         <link href="http://{{ site.host }}/feed.xml" rel="alternate" title="{{ site.name }}" type="application/atom+xml" />
 
         <link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>        
-
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" />
+        
         <link rel="stylesheet" type="text/css" href="/assets/css/site.css" />
         <link rel="stylesheet" type="text/css" href="/assets/css/code/github.css" />
         {% for style in page.styles %}
@@ -77,21 +78,19 @@
                 <!-- Blog Sidebar Widgets Column -->
                 <div class="col-md-4">
 
-                    <!-- Blog Search Well -->
+                    <!-- Blog Author information -->
                     <div class="well">
                         <h4>Author</h4>
                         <figure>
-                            <!--
+                            
                             {% if site.meta.author.gravatar %}
-                            <img src="{{ site.meta.gravatar}}{{ site.meta.author.gravatar }}?s=70" />
+                            <img class="img-rounded" src="{{ site.meta.gravatar}}{{ site.meta.author.gravatar }}?s=70" />
                             {% endif %}
                             <figcaption><strong>{{ site.meta.author.name }}</strong></figcaption>
-                            -->
-                            <img class="img-rounded" src="http://en.gravatar.com/avatar/48b4b2d677d28780288ab93737230019?s=70" />
-                            <figcaption><strong>Weiwei SUN</strong></figcaption>
+                                                 
                         </figure>
                         <h5>热爱Coding的摄影爱好者</h5>
-                        <!-- /.input-group -->
+                        <!-- /.author information -->
                     </div>
 
                     <div class="well">
