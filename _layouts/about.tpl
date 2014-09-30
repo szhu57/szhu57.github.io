@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: aboutpage
 
 pageClass: page-type-about
 
