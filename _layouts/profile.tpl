@@ -46,7 +46,7 @@
                 <img class="img-circle" src="{{ site.meta.gravatar}}{{ site.meta.author.gravatar }}?s=155" alt='user_avater' />
             </div>
             <div class="row col-md-8 col-md-offset-2">
-                <h1 class="text-center">Hi, I am Xiaofeng</h1>
+                <h1 class="text-center">Hi, I am {{ site.meta.author.name }}</h1>
                 {{ content }}
             </div>
             <div class="row col-md-8 col-md-offset-2">
