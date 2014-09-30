@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>About me</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta name="author" content="{{ site.meta.author.name }}" />
+        <meta name="keywords" content="{{ page.tags | join: ',' }}" />
+       
+        <title>{{ site.name }}{% if page.title %} / {{ page.title }}{% endif %}</title>
+       
+        <link href="http://{{ site.host }}/feed.xml" rel="alternate" title="{{ site.name }}" type="application/atom+xml" />
+		
         <link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="/assets/css/blog-home.css" rel="stylesheet" type="text/css"/>
         <link href="/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
@@ -82,5 +89,8 @@
         <footer>
             <br>
         </footer>
+		
+		<script src="http://elfjs.googlecode.com/files/elf-0.4.1-min.js"></script>
+        <script src="http://yandex.st/highlightjs/7.3/highlight.min.js"></script>
     </body>
 </html>

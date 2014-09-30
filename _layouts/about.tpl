@@ -1,7 +1,7 @@
 ---
 layout: profile
 
-pageClass: page-type-about
+pageClass: page-type-post
 
 ---
 

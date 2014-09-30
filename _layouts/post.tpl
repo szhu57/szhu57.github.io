@@ -9,7 +9,7 @@ pageClass: page-type-post
 
 <article>
 	<h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
-	{% assign post = page %}
+	{% assign post = blog %}
 	{% include meta.tpl %}
 	{{ content }}
 	{% capture permaurl %}http://{{site.host}}{{ page.url }}{% endcapture %}
