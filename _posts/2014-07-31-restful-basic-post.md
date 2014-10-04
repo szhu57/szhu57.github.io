@@ -5,7 +5,7 @@ category: knowledge
 ---
 
 本文将会简单的介绍什么是REST以及怎样设计REST风格的Web Service。REST这个词首先由大牛Roy Fielding在他的博士论文中提出来，它是一种网络系统设计的架构风格。REST即Representational State Transfer, 对应成中文大概是“表述性状态转移”。
-
+<!--more-->
 ###为什么是REST
 Web由各种各样的资源组成，一个资源可以是任何我们感兴趣的东西。例如，波音公司可以设计一个747资源，用于表示747型号的飞机。我们可以用如下的URL访问这个资源：
 	

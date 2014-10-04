@@ -1,6 +1,6 @@
 ---
 layout: about
-title: "About Me"
+title: About ME
 ---
 
 Born in 1990, now a student of Southeast University, and also a student of Monash University(Australia), double master degree of Computer Technology and Information Technology. The research interests of mine are database technology, data visualization, and machine learning.

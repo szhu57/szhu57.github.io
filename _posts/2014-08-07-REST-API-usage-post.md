@@ -5,7 +5,7 @@ category: knowledge
 ---
 
 我们了解了什么是REST, 并且知道大部分的网络服务都提供了REST API，国内的诸如微博、土豆等，国外的诸如google, twitter等。但是我们如何来具体的使用REST API呢，本文将介绍如何使用Java语言使用第三方REST API。
-
+<!--more-->
 ###1. 基于HttpURLConnection
 这种方法比较传统，也是最为直观的开发方式，利用HttpURLConnection建立指向特定URL的连接请求，从而获取JSON字符串。Java API对HttpURLConnection的解释是：
 > 每个HttpURLConnection实例都可用于生成单个请求，但是其他实例可以透明地共享连接到HTTP服务器的基础网络。请求后在 HttpURLConnection 的 InputStream 或 OutputStream 上调用 close() 方法可以释放与此实例关联的网络资源，但对共享的持久连接没有任何影响。如果在调用 disconnect() 时持久连接空闲，则可能关闭基础套接字。

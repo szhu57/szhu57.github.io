@@ -8,7 +8,7 @@ category: technology
 21世纪初，Douglas Crockford寻找一种简便的数据交换格式，能够在服务器之间交换数据。当时通用的数据交换语言是XML，但是Douglas Crockford觉得XML的生成和解析都太麻烦，所以他提出了一种简化格式，也就是JSON。
 
 JSON, JavaScript Object Notation, 它是一种轻量级的数据交换格式，非常适合于服务器与JavaScript的交互。对消息通信而言，JSON的优势是比XML更简单，因而可以大大提高开发效率，代码也更为简单。
-
+<!--more-->
 ###JSON语法
 JSON的语法格式非常简单，可以简单的概括如下：
 

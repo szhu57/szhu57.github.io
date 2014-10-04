@@ -1,8 +1,23 @@
 ---
-layout: list
+layout: default
+title: "Weiwei SUN - Bloger for life and knowledge"
 ---
-
-<!-- 首页即博客列表 -->
-{% assign list = site.posts %}
-{% assign preview = true %}
-{% include list.tpl %}
+{% include JB/setup %}
+<br />
+<div class="list-group">
+  {% for post in site.posts %}
+  {% if post.category != 'works' %}
+        {% capture summary %}{{post.content | split:'<!--more-->' |first }}{% endcapture%}
+  <div class="list-group-item">
+    <h3 class="list-group-item-heading">{{ post.title }}</h3>
+    <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+    <div class="post-summary">{{summary}}</div> 
+    {% if summary != post.content %}
+        <p class="text-right">
+            <a href="{{ BASE_PATH }}{{ post.url }}" rel="nofollow" class="btn btn-default btn-sm">Read more...</a>
+        </p>
+    {% endif %}      
+  </div>
+  {% endif %}
+  {% endfor %}
+</div>

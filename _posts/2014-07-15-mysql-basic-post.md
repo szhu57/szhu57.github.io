@@ -5,7 +5,7 @@ category: knowledge
 ---
 
 众所周知，MySql是个开源的关系型数据库，目前MySQL分为两个版本，商业版与社区版。其中社区版是免费提供的，因此我们只需到官网下载community server即可，直接下载免安装版，能够非常便捷的配置与使用。下面简单介绍mysql5.7的配置及简单使用入门。
-
+<!--more-->
 ###Install and Configure
 1.进入mysql主目录（建议将其移到C或D盘的根目录，并改名为mysql)
 

@@ -11,7 +11,7 @@ category: technology
 - Multimedia:
 - 2D/3D
 - Device Access: allowing for the usage of various input and output devices
-
+<!--more-->
 ###New Semantics Tags
 	
 Semantic = Meaning.   

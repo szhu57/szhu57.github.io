@@ -12,7 +12,7 @@ jQuery is a lightweight, "write less, do more", JavaScript library. The purpose 
 - Effects and animations
 - AJAX
 - Utilities
-
+<!--more-->
 ###Install JQuery
 1.You can download all files from Jquery website, and import them to your website
 

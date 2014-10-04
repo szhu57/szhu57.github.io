@@ -7,7 +7,7 @@ category: technology
 ###Data Model Basic
 
 Database model, it means a collection of concepts and rules used in defining data models:  for example the relational model uses relations and tuples, while the network model uses records, sets, and fields.
-
+<!--more-->
 According to Hoberman (2009):
 
 > "A data model is a way finding tool for both business and IT professionals, which uses a set of symbols and text to precisely explain a subset of real information to improve communication within the organization and thereby lead to a more flexible and stable application environment."

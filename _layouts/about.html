@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    
+    {% include head.html %}
+
+    <body>
+	{% include header.html %}
+
+        <div class="container">
+            <div class="centered row">
+                <br>
+                <br>
+                <img class="img-circle" src="{{ site.meta.gravatar }}{{ site.meta.author.gravatar }}?s=155" alt='user_avater' />
+            </div>
+            <div class="row col-md-8 col-md-offset-2">
+                <h2 class="text-center">Hi, I am {{ site.meta.author.name }}</h2>
+                <article>{{ content }}</article>
+            </div>
+            <div class="row col-md-8 col-md-offset-2">
+                <h2 class="text-center">Contact</h2>
+                <br>
+                <p class="text-center">
+                    <i class="fa fa-envelope fa-2x"></i>&#9;<a>ww.sun@outlook.com</a>
+                    <i class="fa fa-weibo fa-2x"></i>&#9;<a href="http://weibo.com/swwol" target="_blank">weibo.com/swwol</a>
+		    <i class="fa fa-github fa-2x"></i>&#9;<a href="http://www.github.com/wwsun" target="_blank">github.com/wwsun</a>
+                </p>
+            </div>
+
+            <div class="row col-md-8 col-md-offset-2">
+                <br>
+                <h2 class="text-center">Skills</h2>
+                <h4>Java & Java EE</h4>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-info col-md-6" style="width: 60%;"></div>
+                </div>
+
+                <h4>HTML/ CSS/ Bootstrap</h4>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-info col-md-6" style="width: 80%;"></div>
+                </div>
+		
+		<h4>JavaScript/ AngularJS/ Node.js</h4>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-info col-md-6" style="width: 40%;"></div>
+                </div>
+            </div>
+            
+            <div class="row col-md-8 col-md-offset-2">
+                <br>
+                <h2 class="text-center">Latest Reading</h2>
+                <div class='centered'>
+                <script type="text/javascript" src="http://www.douban.com/service/badge/swwol32/?selection=latest&amp;picsize=medium&amp;show=collection&amp;n=18&amp;cat=book&amp;columns=6"></script>
+                </div>
+            </div>
+        </div>
+
+	{% include footer.html %}
+
+    </body>
+</html>

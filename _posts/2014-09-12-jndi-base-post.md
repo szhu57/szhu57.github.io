@@ -9,7 +9,7 @@ category: technology
 JNDI，即JAVA命名及目录接口，是Java EE的重要规范之一，它也是EJB的一个重要组成部分。那么到底什么是JNDI呢？维基百科的正式解释如下：
 
 > The Java Naming and Directory Interface (JNDI) is a Java API for a directory service that allows Java software clients to discover and look up data and objects via a name. Like all Java APIs that interface with host systems, JNDI is independent of the underlying implementation. Additionally, it specifies a service provider interface (SPI) that allows directory service implementations to be plugged into the framework. It may make use of a server, a flat file, or a database; the choice is up to the vendor.
-
+<!--more-->
 大概解释如下，JNDI是Java平台的一个标准扩展，提供了一组接口、类和关于命名空间的概念。如同其它很多Java技术一样，JDNI是provider-based的技术，暴露了一个API和一个服务供应接口（SPI）。这意味着任何基于名字的技术都能通过JNDI而提供服务，只要JNDI支持这项技术。JNDI目前所支持的技术包括LDAP、CORBA Common Object Service（COS）名字服务、RMI、NDS、DNS、Windows注册表等等。很多J2EE技术，包括EJB都依靠JNDI来组织和定位实体。 
 
 JDNI通过绑定的概念将对象和名称联系起来。在一个文件系统中，文件名被绑定给文件。在DNS中，一个IP地址绑定一个URL。在目录服务中，一个对象名被绑定给一个对象实体。 
