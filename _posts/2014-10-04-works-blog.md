@@ -3,7 +3,7 @@ title: Weiwei's Blog
 category: works
 icon: code-fork
 gitrepo: wwsun.github.com
-tags: [ASP.NET, MVC4]
+tags: [jekyll, github]
 figures:
   - src: "/img/project/blog.png"
     height: 230
