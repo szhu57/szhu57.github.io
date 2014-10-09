@@ -88,12 +88,12 @@ Force-directed Graph，即力导向图，这种布局模拟了物理学中的力
 
 
     force.on("tick", function() {
-  		link.attr("x1", function(d) { return d.source.x; })
+		  link.attr("x1", function(d) { return d.source.x; })
 	      .attr("y1", function(d) { return d.source.y; })
 	      .attr("x2", function(d) { return d.target.x; })
 	      .attr("y2", function(d) { return d.target.y; });
 
-  		node.attr("cx", function(d) { return d.x; })
+		   node.attr("cx", function(d) { return d.x; })
       	  .attr("cy", function(d) { return d.y; });
 	});
 
