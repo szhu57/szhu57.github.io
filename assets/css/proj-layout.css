@@ -292,3 +292,7 @@ aside .block a{margin:0;}
 #timeline li.item article p{
     text-indent: 2em;
 }
+
+.img-with-shadow {
+    box-shadow:5px 5px 5px #888;
+}

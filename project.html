@@ -30,7 +30,7 @@ title: Personal experiences and latest projects
 	                          
 	                            {% if item.figures %}
 	                            <figure>
-	                                {% for img in item.figures %}<img src="{{img.src}}" {% if img.height %}height="{{img.height}}" {% endif %}style="max-width:{{100 | divided_by:forloop.length}}%;" />{% endfor %}
+	                                {% for img in item.figures %}<img src="{{img.src}}" class="img-with-shadow" {% if img.height %}height="{{img.height}}" {% endif %}style="max-width:{{100 | divided_by:forloop.length}}%;" />{% endfor %}
 	                            </figure>
 	                            {% endif %}
 	                            <article>
