@@ -4,7 +4,7 @@ title: What is JPA? How does it differ from Hibernate?
 category: technique
 ---
 
-Java Persistence Architecture API(JPA)，即Java持久化体系结构API是一套规范，用于在Java的类或对象与数据库间读取、持久化和管理数据。
+Java Persistence Architecture API(JPA)，即Java持久化体系结构API，它是一套规范，是用在Java的类/对象与数据库间读取、持久化和管理数据的一套标准。因为是一套规范，因此其并没有具体的实现细节，具体的实现交由JPA Provider负责。
 
 <!--more-->
 
