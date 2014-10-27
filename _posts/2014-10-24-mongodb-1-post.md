@@ -48,7 +48,7 @@ MongoDB是一款为Web应用程序和互联网基础设施设计的开源的NoSQ
 - Server-side: SparkJava Framework
 - Client-side: FreeMarker
 
-###JSONB - Binary jSON
+###BSON - Binary jSON
 
 MongoDB用来表示文档的二进制格式，它既是存储格式，也是命令格式。所有文档都已BSON格式存储在磁盘上，所有查询和命令都用BSON文档来指定。
 
