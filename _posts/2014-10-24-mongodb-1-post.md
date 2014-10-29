@@ -1,6 +1,6 @@
 ---
 layout: post
-title: MongoDB Web开发入门——使用Java
+title: Web Application Dev. based on MongoDB using Java - An Introduction
 category: database
 ---
 

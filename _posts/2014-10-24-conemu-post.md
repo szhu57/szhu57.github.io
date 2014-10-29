@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ConEmu - Windows CMD的替代品
+title: ConEmu - an useful tool to replace your Windows Console
 category: technique
 ---
 
