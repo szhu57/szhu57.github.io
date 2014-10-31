@@ -4,7 +4,7 @@ title: Web Application Dev. based on MongoDB using Java - An Introduction
 category: database
 ---
 
-对于web开发而言，很多时候我们并不需要复杂的关系数据库，并且关系数据库要求严格的模式定义，导致其使用起来又会存在非常多的问题。近年来，追着NoSQL的兴起，使得我们更多的开始关注如何有效的存储和处理无结构的web信息。这里，简要的介绍MongoDB的web开发，使用Java语言。
+对于web开发而言，很多时候我们并不需要复杂的关系数据库，并且关系数据库要求严格的模式定义，而这很多时候并不适用于web上大量的无结构信息。近年来，追着NoSQL的兴起，使得我们更多的开始关注如何有效的存储和处理无结构的web信息。本文将简要的介绍MongoDB的web开发基本过程。
 <!--more-->
 
 ###Introduction
@@ -40,13 +40,21 @@ MongoDB是一款为Web应用程序和互联网基础设施设计的开源的NoSQ
 
 	http://docs.mongodb.org/manual/core/crud-introduction/
 
+###Import JSON to MongoDB
+可以使用以下命令将一个JSON文档直接导入到MongoDB中
+
+	mongoimport -d students -c grades < grades.json
+		//-d 数据库名
+		//-c 集合名
+
+
 ###Application Architecture
 
 ![Application Architecture](/img/posts/141026-mongo-arch.PNG)
 
 - Database: MongoDB
-- Server-side: SparkJava Framework
-- Client-side: FreeMarker
+- Server-side: SparkJava Framework etc.
+- Client-side: FreeMarker etc.
 
 ###BSON - Binary jSON
 
@@ -54,7 +62,7 @@ MongoDB用来表示文档的二进制格式，它既是存储格式，也是命�
 
 ###Maven
 
-这里使用Maven作为项目构建工具。启动一个Maven默认的模版，首先加入sparkjava：
+我们使用Maven作为项目构建工具。我们将启动一个Maven初始模版（app-start）作为我们开发的起点。启动项目后，首先在pom中加入sparkjava，sparkjava是一个轻型的MVC框架：
 
 	<dependency>
 		<groupId>com.sparkjava</groupId>
@@ -62,15 +70,19 @@ MongoDB用来表示文档的二进制格式，它既是存储格式，也是命�
 		<version>1.1.1</version>
 	</dependency>
 
-注意，最新版的sparkjava为2.0.0.0，需要java8的支持，否则，只能退回到旧版本，这里我们使用1.1.1版本，其可以支持java7。
+需要注意的是，最新版的sparkjava为2.0.0.0，需要java8的支持，如果你未使用java8的话，就必须退回到旧版本，这里我们使用1.1.1版本，该版本支持java7。 sparkjava项目的官方地址为：
 
-然后，配置freemarker：
+	http://www.sparkjava.com/
+
+然后，我们将freemarker的相关配置信息加入pom中：
 	
 	<dependency>
 		<groupId>org.freemarker</groupId>
 		<artifactId>freemarker</artifactId>
 		<version>2.3.19</version>
 	</dependency>
+
+###MongoDB Java Driver
 
 最后，加入mongodb的java driver:
 
@@ -80,9 +92,7 @@ MongoDB用来表示文档的二进制格式，它既是存储格式，也是命�
        <version>2.10.1</version>
     </dependency>
 
-###MongoDB Java Driver
-
-测试代码如下：
+为了验证以上的步骤是否正确，我们编写如何的测试代码，用于测试MongoDB是否能正常工作（注意，前提是你必须先启动mongod应用服务器）：
 
 	MongoClient client = new MongoClient(new ServerAddress("localhost", 27017));
 		
@@ -93,4 +103,4 @@ MongoDB用来表示文档的二进制格式，它既是存储格式，也是命�
 	System.out.println(document)；
 
 ###Summary
-这里介绍了MongDB web开发的基本结构，以及各项组件在应用中的作用。后面，会再利用一两篇博客具体介绍基于mongoDB的web开发的具体细节，包括如何使用sparkjava+freemarker。
+本文简单介绍了基于MongDB的web应用开发的基本结构，以及各项组件在应用中的作用。今后，会再利用一两篇博客具体介绍基于mongoDB的web开发的具体细节，包括如何使用sparkjava+freemarker。以及使用以上谈到的技术构建一个简单的博客系统。
