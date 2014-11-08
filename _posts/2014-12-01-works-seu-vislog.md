@@ -2,7 +2,6 @@
 title: Web访问日志分析可视化系统（进行中）
 category: works
 icon: code-fork
-gitrepo: seu-vislog
 tags: [visualization, hadoop, mongoDB]
 figures:
   - src: "/img/project/seu-vislog.PNG"
