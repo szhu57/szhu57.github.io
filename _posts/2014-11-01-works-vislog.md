@@ -5,7 +5,7 @@ icon: code-fork
 tags: [visualization, hadoop, mongoDB]
 figures:
   - src: "/img/project/seu-vislog.PNG"
-    height: 230
+    height: 180
 public: false
 ---
 
