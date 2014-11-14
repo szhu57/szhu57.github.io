@@ -9,9 +9,11 @@ title: "Blog list"
     {% for post in site.posts %}
     {% if post.category != "courses" %}    
     {% if post.category != 'works' %}
+	{% if post.category != "activities" %}
         <a class="list-group-item" href="{{ BASE_PATH }}{{ post.url }}">
-          <h4>{{ post.title }}  <small>{{ post.date | date: "%b %-d, %Y" }}</small></h4>
+          <p>{{ post.title }}  <small>{{ post.date | date: "%b %-d, %Y" }}</small></p>
         </a>
+	{% endif %}
     {% endif %}
     {% endif %}
     {% endfor %}

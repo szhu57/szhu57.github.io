@@ -10,6 +10,7 @@ title: "Weiwei SUN - Bloger for life and knowledge"
 
 {% if post.category != 'works'%}
 {% if post.category != "courses" %}
+{% if post.category != "activities" %}
 {% capture summary %}{{post.content | split:'<!--more-->' |first }}{% endcapture%}
         <article class="post type-post hentry">
             <div class="blog-item-wrap">
@@ -36,7 +37,7 @@ title: "Weiwei SUN - Bloger for life and knowledge"
                 </div>
             </div>
         </article>
-
+{% endif %}
 {% endif %}
 {% endif %}
 {% endfor %}
