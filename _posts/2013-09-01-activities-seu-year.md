@@ -1,7 +1,7 @@
 ---
 title: 进入东南大学读研
 category: activities
-icon: check-square-o
+icon: check-square
 figures:
   - src: "/img/exp/seu.PNG"
     height: 70
