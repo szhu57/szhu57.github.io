@@ -1,11 +1,10 @@
 ---
 title: 参与并通过Monash English Bridging
-category: works
-icon: building-o
-tags: [Monash, English, 苏州]
+category: activities
+icon: check-square
 figures:
   - src: "/img/exp/monash.PNG"
-    height: 55
+    height: 50
 public: false
 ---
 

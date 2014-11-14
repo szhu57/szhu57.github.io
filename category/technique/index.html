@@ -7,7 +7,7 @@ title: "Knowledge Category"
 <div class="list-group">
 
     {% for post in site.posts %}
-    {% if post.category == "knowledge" %}    
+    {% if post.category == "technique" %}    
    
         <a class="list-group-item" href="{{ BASE_PATH }}{{ post.url }}">
           <h4>{{ post.title }}  <small>{{ post.date | date: "%b %-d, %Y" }}</small></h4>

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+  {% include post-head.html %}
 
   <body>
 
-    {% include header.html %}
+    {% include post-header.html %}
 
     <div class="container main-content-area">
       <div class="col-sm-12 col-md-8 pull-left">
@@ -13,12 +13,11 @@
       </div>
             <div id="secondary" class="widget-area col-sm-12 col-md-4" role="complementary">
                 <div class="well">
-                    <aside id="search-2" class="widget widget_search">
-			<form method="get" class="form-search" _lpchecked="1">
+                    <aside id="search-2" class="widget widget_search"><form method="get" class="form-search" action="">
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="input-group">
-                                    <input type="text" id="st-search-input" class="form-control search-query" placeholder="Search...">
+                                    <input type="text" class="form-control search-query" value="" name="s" id="s" placeholder="Search...">
                                     <span class="input-group-btn">
                                       <button type="submit" class="btn btn-primary btn-sm btn-default" name="submit" id="searchsubmit" value="Go" style=""><span class="glyphicon glyphicon-search"></span></button>
                                     </span>
