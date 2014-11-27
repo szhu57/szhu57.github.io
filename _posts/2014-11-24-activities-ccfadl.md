@@ -2,6 +2,9 @@
 title: 参加CCF ADL53数据驱动的软件开发与演化
 category: activities
 icon: check-square
+figures:
+  - src: "/img/exp/adl53.jpg"
+    height: 240
 public: false
 ---
 
