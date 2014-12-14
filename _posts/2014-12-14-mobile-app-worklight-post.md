@@ -1,6 +1,7 @@
+---
 layout: post
 title: 基于Worklight开发混合移动应用
-category: database
+category: technique
 ---
 
 混合移动应用一般指的是基于HTML5而开发的移动应用，它的特点通过一些编译环境可以快速的生成多个平台的应用，做到“一次编写，多处运行”的特点。本文将简要概述混合移动应用开发的相关经验，并分享一些相关的资源。

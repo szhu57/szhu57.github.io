@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 基于MongoDB开发轻量级web应用——以博客为例
-category: database
+category: technique
 ---
 
 本文旨在说明基于MongoDB的web应用开发的基本流程，即如何使用MongoDB来替代传统的关系数据库。对轻量级应用而言，使用MongoDB的最大好处是可以快速的进行数据库设计，无需复杂的模式定义。并且MongoDB易伸缩，文档结构灵活，尤其适合以查询为主的web应用。
