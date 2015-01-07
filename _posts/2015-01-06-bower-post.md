@@ -4,17 +4,17 @@ title: 使用Bower进行前端依赖管理
 category: technique
 ---
 
-通常网站可以由很多东西组成，包括框架、库、静态资源、工具包等等。Bower的作用就湿用来管理所有的这些东西。你可以简单的理解为：Bower是一个前端依赖管理工具，可以用来管理Bootstrap，jQuery等常用的前端库或框架。
+通常网站可以由很多东西组成，包括框架、库、静态资源、工具包等等。Bower的作用就是用来管理这些东西的。你可以简单的理解为：Bower是一个前端依赖管理工具，可以用来管理Bootstrap，jQuery等常用的前端库或框架。
 
 <!--more-->
 
 ###Bower基础入门
-Bower是一个客户端技术的软件包管理器，它可用于搜索、安装和卸载如JavaScript、HTML、CSS之类的网络资源。其他一些建立在Bower基础之上的开发工具，如YeoMan和Grunt，这个会在以后的文章中介绍。
+Bower是一个web前端技术的软件包管理器，它可用于搜索、安装和卸载如JavaScript、HTML、CSS之类的网络资源，与此对应的是NPM，它是Node的包管理工具（主要做node服务器端的依赖管理）。其他一些建立在Bower基础之上的开发工具，如Yeoman和Grunt，这个会在以后的文章中介绍。
 
-使用Bower的优势是让你能够轻松的管理前端依赖，而不用手动的去各个网站下载资源，Bower能够通过通用的方式自动下载各项资源，从而节省你的时间，轻松的管理项目的前端依赖，并且升级也非常的简单。
+使用Bower的优势是让你能够轻松的管理前端依赖，而不用手动的去各个网站下载资源，Bower能够通过通用的方式自动下载各项资源，从而节省你的时间，轻松的管理项目的前端依赖，并且可以轻松的升级依赖项目的版本。
 
 ###安装Bower
-Bower依赖于Node.js，Git，因此你需要提前安装好，才能正常安装bower。 Bower可以通过NPM进行安装：
+Bower依赖于Node.js，Git（资源主要通过git进行下载），因此你需要提前安装好，才能正常安装bower。 Bower可以通过NPM进行安装：
 
 	$ npm install -g bower 	//全局安装bower
 	$ bower --version 		//检查版本确认是否安装好
@@ -117,13 +117,20 @@ Bower的基础使用，可以参考[这篇文章](http://segmentfault.com/a/1190
 
 我们发现，这里有一个问题是必须用 `../bower_components` 的相对定位方式才能找到相关的资源。解决方法是配合使用grunt，而grunt和bower天生就是应该一起使用的。本文不具体介绍grunt，感兴趣的可以去grunt的官网查看相关内容。
 
-下面介绍`.bowerrc`文件，它是一个json文件，你可以直接创建该文件，通过该文件我们可以指定bower的依赖目录，网关服务器，超时连接等配置信息，内容如下：
+###Bower配置文件
+
+Bower可以通过`.bowerrc`文件进行配置，它是一个JSON文件，你可以直接在项目的根目录创建该文件，通过该文件我们可以指定bower的依赖安装目录，网关服务器，超时连接等配置信息，该文件的详细配置参数的说明见[链接页面](http://bower.io/docs/config/)。内容如下：
 
 	{
 	  "directory": "bower_components",
-	  "proxy": "",
-	  "https-proxy": "",
-	  "timeout": 60000
+	  "analytics": false,
+	  "timeout": 120000,
+	  "registry": {
+	    "search": [
+	      "http://localhost:8000",
+	      "https://bower.herokuapp.com"
+	    ]
+	  }
 	}
 
 ###References
@@ -132,3 +139,4 @@ Bower的基础使用，可以参考[这篇文章](http://segmentfault.com/a/1190
 2. http://bower.io/docs/creating-packages/#bowerjson
 2. http://bower.io/docs/tools/
 3. http://segmentfault.com/a/1190000000349555
+4. http://bower.io/docs/config/
