@@ -17,8 +17,8 @@ category: technique
 
 在客户端，当用户鼠标在页面上移动时，我们通过其鼠标移动事件`onmousemove`捕获其移动的轨迹数据，并将坐标列表通过POST方式上传到服务器端，交由`/upload`来处理，`/upload`是在服务器端定义的一个路由，该路由中我们将会定义具体的POST处理方式。
 
-    var heatmapContainer = document.getElementById('heatmapContainerWrapper');
-    heatmapContainer.onmousemove = function (e) {
+    var container = document.getElementById('heatmapContainerWrapper');
+    container.onmousemove = function (e) {
         e.preventDefault();
         $.post('/upload', {
             x: e.layerX,
