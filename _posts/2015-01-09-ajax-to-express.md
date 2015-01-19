@@ -1,6 +1,6 @@
 ---
 layout: post
-title: jQuery + Ajax + Node + Express 实时数据上传
+title: DOM事件的实时异步传输方法
 category: technique
 ---
 
@@ -41,3 +41,7 @@ category: technique
 	});
 
 通过这样的一个应用，我们可以在开发中完全避免使用其他动态语言编程技术，例如`PHP`,`JSP`等，就能开发简单的RESTful应用，本文只是整个Heatmap项目的一个组件的开发技巧。
+
+###References
+
+1. http://css-tricks.com/tracking-clicks-building-a-clickmap-with-php-and-jquery/
