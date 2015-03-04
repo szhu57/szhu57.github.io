@@ -8,15 +8,15 @@ category: technique
 
 <!--more-->
 
-- Todo: 翻译原文  due March-10
 - 原文地址：https://github.com/bendc/frontend-guidelines
 - 推荐阅读：http://materliu.github.io/code-guide/
 
 ## HTML
 
-### Semantics
+### Semantics 语义化
 
-HTML5 provides us with lots of semantic elements aimed to describe precisely the content. Make sure you benefit from its rich vocabulary.
+HTML5为我们提供了大量的语义元素用来更准确的描述内容。你可以借助这些丰富的语义化的元素来组织你的网站：
+
 
 	<!-- bad -->
 	<div id="main">
@@ -40,8 +40,7 @@ HTML5 provides us with lots of semantic elements aimed to describe precisely the
 	  </article>
 	</main>
 
-Make sure you understand the semantic of the elements you're using. It's worse to use a semantic
-element in a wrong way than staying neutral.
+Make sure you understand the semantic of the elements you're using. It's worse to use a semantic element in a wrong way than staying neutral.
 
 	<!-- bad -->
 	<h1>
@@ -55,9 +54,10 @@ element in a wrong way than staying neutral.
 	  <img alt=Company src=logo.png>
 	</h1>
 
-### Brevity
+### Brevity 简洁
 
-Keep your code terse. Forget about your old XHTML habits.
+遵循HTML5新的代码规则，忘记XHTML中那些繁杂的习惯。
+
 
 	<!-- bad -->
 	<!doctype html>
@@ -92,7 +92,7 @@ Keep your code terse. Forget about your old XHTML habits.
 	  <script src=main.js></script>
 	</html>
 
-### Accessibility
+### Accessibility 可访问性
 
 Accessibility shouldn't be an afterthought. You don't have to be a WCAG expert to improve your
 website, you can start immediately by fixing the little things that make a huge difference, such as:
@@ -111,11 +111,9 @@ website, you can start immediately by fixing the little things that make a huge 
 
 
 
-### Language
+### Language 语言
 
-While defining the language and character encoding is optional, it's recommended to always declare
-both at document level, even if they're specified in your HTTP headers. Favor UTF-8 over any other
-character encoding.
+虽然定义语言和字符编码方式是可选的，但还是推荐你始终在文档级别声明它们。
 
 	<!-- bad -->
 	<!doctype html>
@@ -129,11 +127,14 @@ character encoding.
 	</html>
 
 
-### Performance
+### Performance 性能
+
+先文档后脚本，尽量不要把脚本代码放在顶部。
 
 Unless there's a valid reason for loading your scripts before your content, don't block the
 rendering of your page. If your style sheet is heavy, isolate the styles that are absolutely
 required initially and defer the loading of the secondary declarations in a separate style sheet.
+
 Two HTTP requests is significantly slower than one, but the perception of speed is the most
 important factor.
 
@@ -155,7 +156,7 @@ important factor.
 
 ## CSS
 
-### Semicolons
+### Semicolons 始终用分号作为结束符
 
 While the semicolon is technically a separator in CSS, always treat it as a terminator.
 
@@ -171,7 +172,7 @@ While the semicolon is technically a separator in CSS, always treat it as a term
 	}
 
 
-### Box model
+### Box model 盒模型
 
 The box model should ideally be the same for the entire document. A global
 `* { box-sizing: border-box; }` is fine, but don't change the default box model
@@ -191,7 +192,7 @@ on specific elements if you can avoid it.
 	}
 
 
-### Flow
+### Flow 流
 
 Don't change the default behavior of an element if you can avoid it. Keep elements in the
 natural document flow as much as you can. For example, removing the white-space below an
@@ -226,7 +227,7 @@ Similarly, don't take an element off the flow if you can avoid it.
 	}
 
 
-### Positioning
+### Positioning 定位方式
 
 There are many ways to position elements in CSS but try to restrict yourself to the
 properties/values below. By order of preference:
@@ -240,7 +241,7 @@ properties/values below. By order of preference:
 	position: fixed;
 
 
-### Selectors
+### Selectors 选择器
 
 Minimize selectors tightly coupled to the DOM. Consider adding a class to the elements
 you want to match when your selector exceeds 3 structural pseudo-classes, descendant or
@@ -290,7 +291,7 @@ and avoid `!important`.
 	}
 
 
-### Overriding
+### Overriding 覆盖
 
 Overriding styles makes selectors and debugging harder. Avoid it when possible.
 
@@ -309,7 +310,7 @@ Overriding styles makes selectors and debugging harder. Avoid it when possible.
 	}
 
 
-### Inheritance
+### Inheritance 继承
 
 Don't duplicate style declarations that can be inherited.
 
@@ -325,7 +326,7 @@ Don't duplicate style declarations that can be inherited.
 	}
 
 
-### Brevity
+### Brevity 代码简写
 
 Keep your code terse. Use shorthand properties and avoid using multiple properties when
 it's not needed.
@@ -348,9 +349,9 @@ it's not needed.
 	  padding: 5px 10px 20px;
 	}
 
-### Language
+### Language 语言
 
-Prefer English over math.
+使用单词而不是数学表达式。
 
 	/* bad */
 	:nth-child(2n + 1) {
@@ -362,7 +363,7 @@ Prefer English over math.
 	  transform: rotate(1turn);
 	}
 
-### Vendor prefixes
+### Vendor prefixes 厂商前缀
 
 Kill obsolete vendor prefixes aggressively. If you need to use them, insert them before the
 standard property.
@@ -386,7 +387,7 @@ standard property.
 	  transition: 1s;
 	}
 
-### Animations
+### Animations 动画
 
 Favor transitions over animations. Avoid animating other properties than
 `opacity` and `transform`.
@@ -407,7 +408,7 @@ Favor transitions over animations. Avoid animating other properties than
 	  transform: translateX(100px);
 	}
 
-### Units
+### Units 单位
 
 Use unitless values when you can. Favor `rem` if you use relative units. Prefer seconds over
 milliseconds.
@@ -428,7 +429,7 @@ milliseconds.
 	  transition: .5s;
 	}
 
-### Colors
+### Colors 使用16进制颜色
 
 If you need transparency, use `rgba`. Otherwise, always use the hexadecimal format.
 
@@ -442,7 +443,7 @@ If you need transparency, use `rgba`. Otherwise, always use the hexadecimal form
 	  color: #5a3;
 	}
 
-### Drawing
+### Drawing 绘图
 
 Avoid HTTP requests when the resources are easily replicable with CSS.
 
@@ -479,11 +480,9 @@ Don't use them.
 
 ## JavaScript
 
-### Performance
+### Performance 性能
 
-Favor readability, correctness and expressiveness over performance. JavaScript will basically never
-be your performance bottleneck. Optimize things like image compression, network access and DOM
-reflows instead. If you remember just one guideline from this document, choose this one.
+Favor readability, correctness and expressiveness over performance. JavaScript will basically never be your performance bottleneck. Optimize things like image compression, network access and DOM reflows instead. If you remember just one guideline from this document, choose this one.
 
 	// bad (albeit way faster)
 	const arr = [1, 2, 3, 4];
@@ -505,6 +504,8 @@ reflows instead. If you remember just one guideline from this document, choose t
 
 ### Statelessness
 
+努力让你的函数更加纯净。所有的函数都应该是没有边际效应的，不要使用外部数据，返回新的对象。
+
 Try to keep your functions pure. All functions should ideally produce no side-effects, use no outside data and return new objects instead of mutating existing ones.
 
 	// bad
@@ -517,7 +518,7 @@ Try to keep your functions pure. All functions should ideally produce no side-ef
 
 ### Natives
 
-Rely on native methods as much as possible.
+尽可能使用原生的方法。
 
 	// bad
 	const toArray = obj => [].slice.call(obj);
@@ -537,7 +538,7 @@ Embrace implicit coercion when it makes sense. Avoid it otherwise. Don't cargo-c
 	// good
 	if (x == undefined) { ... }
 
-### Loops
+### Loops 循环
 
 Don't use loops as they force you to use mutable objects. Rely on `array.prototype` methods.
 
@@ -586,7 +587,7 @@ If you can't, or if using `array.prototype` methods is arguably abusive, use rec
 	createDivs(5);
 
 
-### Arguments
+### Arguments 参数
 
 Forget about the `arguments` object. The rest parameter is always a better option because:
 
@@ -600,7 +601,7 @@ Forget about the `arguments` object. The rest parameter is always a better optio
 	// good
 	const sortNumbers = (...numbers) => numbers.sort();
 
-### Apply
+### Apply 忘记Apply
 
 Forget about `apply()`. Use the spread operator instead.
 
@@ -613,7 +614,7 @@ Forget about `apply()`. Use the spread operator instead.
 	// good
 	greet(...person);
 
-### Bind
+### Bind 绑定
 
 Don't `bind()` when there's a more idiomatic approach.
 
@@ -646,9 +647,9 @@ Don't `bind()` when there's a more idiomatic approach.
 	  }
 	}
 
-### Higher-order functions
+### Higher-order functions 高阶函数
 
-Avoid nesting functions when you don't have to.
+当你没必要使用嵌套函数的时候一定不要使用。
 
 	// bad
 	[1, 2, 3].map(num => String(num));
@@ -672,7 +673,7 @@ Avoid multiple nested function calls. Use composition instead.
 	const addThenMult = pipeline(plus1, mult2);
 	addThenMult(5); // => 12
 
-### Caching
+### Caching 缓存
 
 Cache feature tests, large data structures and any expensive operation.
 
@@ -691,7 +692,7 @@ Cache feature tests, large data structures and any expensive operation.
 	)();
 	contains(["foo", "bar"], "baz"); // => false
 
-### Variables
+### Variables 变量
 
 Favor `const` over `let` and `let` over `var`.
 
@@ -704,7 +705,7 @@ Favor `const` over `let` and `let` over `var`.
 	  ["foo" + "bar"]: "baz"
 	};
 
-### Conditions
+### Conditions 条件
 
 Favor IIFE's and return statements over if, else if, else and switch statements.
 
@@ -727,9 +728,9 @@ Favor IIFE's and return statements over if, else if, else and switch statements.
 	})();
 
 
-### Object iteration
+### Object iteration 对象迭代
 
-Avoid `for...in` when you can.
+尽量避免使用 `for...in`
 
 	const shared = { foo: "foo" };
 	const obj = Object.create(shared, {
@@ -750,8 +751,7 @@ Avoid `for...in` when you can.
 
 ### Objects as Maps
 
-While objects have legitimate use cases, maps are usually a better, more powerful choice. When in
-doubt, use a `Map`.
+While objects have legitimate use cases, maps are usually a better, more powerful choice. When in doubt, use a `Map`.
 
 	// bad
 	const me = {
@@ -784,7 +784,7 @@ Currying might have its place in other languages, but avoid it in JavaScript. It
 	const sum = (a, b) => a + b;
 	sum(5, 3); // => 8
 
-### Readability
+### Readability 可读性
 
 Don't obfuscate the intent of your code by using seemingly smart tricks.
 
@@ -808,7 +808,7 @@ Don't obfuscate the intent of your code by using seemingly smart tricks.
 	// good
 	const n = Math.floor(3.14);
 
-### Code reuse
+### Code reuse 代码重用
 
 Don't be afraid of creating lots of small, highly composable and reusable functions.
 
@@ -829,7 +829,7 @@ Don't be afraid of creating lots of small, highly composable and reusable functi
 	const product = (a, b) => a * b;
 	const triple = product.bind(null, 3);
 
-### Dependencies
+### Dependencies 最小化依赖
 
 Minimize dependencies. Third-party is code you don't know. Don't load an entire library for just a couple of methods easily replicable:
 
