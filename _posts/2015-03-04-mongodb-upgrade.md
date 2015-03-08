@@ -33,7 +33,7 @@ MongoDB 3.0的稳定版终于发布了，新版不仅强化了原有的MMAPv1存
 
 ### 4.使用WiredTiger引擎重启mongod
 
-	mongod --storageEngine WiredTiger --dbpath \data\db
+	mongod --storageEngine wiredTiger --dbpath \data\db
 
 ### 5.恢复数据
 
