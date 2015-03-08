@@ -4,14 +4,18 @@ title: 使用Bower进行前端依赖管理
 category: technique
 ---
 
-通常网站可以由很多东西组成，包括框架、库、静态资源、工具包等等。Bower的作用就是用来管理这些东西的。你可以简单的理解为：Bower是一个前端依赖管理工具，可以用来管理Bootstrap，jQuery等常用的前端库或框架。
-
+Bower是一个用于管理前端依赖的包管理器（Package Manager），该开源项目由Twitter创建。与此相对应的包括，PHP的`Composer`，Node的`NPM`，和Ruby的`RubyGems`。本文通过结合官方文档和一些简单的实例来展示Bower是如何提升开发效率的。
 <!--more-->
 
-###Bower基础入门
-Bower是一个web前端技术的软件包管理器，它可用于搜索、安装和卸载如JavaScript、HTML、CSS之类的网络资源，与此对应的是NPM，它是Node的包管理工具（主要做node服务器端的依赖管理）。其他一些建立在Bower基础之上的开发工具，如Yeoman和Grunt，这个会在以后的文章中介绍。
+> 2015/03/08 update
 
-使用Bower的优势是让你能够轻松的管理前端依赖，而不用手动的去各个网站下载资源，Bower能够通过通用的方式自动下载各项资源，从而节省你的时间，轻松的管理项目的前端依赖，并且可以轻松的升级依赖项目的版本。
+##为什么要用Bower
+
+使用类似于[Bower](http://bower.io/)这样的包管理器主要基于以下几个原因：
+
+- 方便的寻找和下载你需要的依赖库，并将它们整合到项目中，例如jQuery, Angular等。
+- 方便的下载指定版本的依赖库（免除去网络上搜索和下载）
+- 便于你使用简单的方法获取你想要的依赖库
 
 ###安装Bower
 Bower依赖于Node.js，Git（资源主要通过git进行下载），因此你需要提前安装好，才能正常安装bower。 Bower可以通过NPM进行安装：
@@ -60,9 +64,27 @@ Bower的基础使用，可以参考[这篇文章](http://segmentfault.com/a/1190
 
 	$ bower search bootstrap
 
-###bower.json和.bowerrc
+##在项目中设置Bower
 
-为了更好的管理依赖，我们通常通过`bower.json`,`.bowerrc`进行管理项目的依赖。可以通过下面的的命令生成`bower.json`文件：
+为了在项目中使用`Bower`，你需要下面两个文件
+
+- `.bowerrc` 用于告诉Bower需要将依赖安装在什么地方
+- `bower.json` 用于告诉Bower需要安装那些依赖
+
+###定义Bower目录
+
+Bower的默认目录为项目根目录下的`bower_components`，通常我们不想使用这个文件夹。我们可以创建`.bowerrc`文件，并在其中使用JSON语法配置目录信息：
+
+	// .bowerrc
+	{
+	    "directory": "libs"
+	}
+
+接来下，我们安装的依赖包都会下载到这个目录中。
+
+###安装多个依赖包
+
+为我们通常通过`bower.json`文件来管理依赖包。可以通过下面的的命令生成`bower.json`文件：
 
 	bower init
 
@@ -80,17 +102,12 @@ Bower的基础使用，可以参考[这篇文章](http://segmentfault.com/a/1190
 	    "bootstrap"
 	  ],
 	  "license": "MIT",
-	  "ignore": [
-	    "**/.*",
-	    "node_modules",
-	    "bower_components",
-	    "test",
-	    "tests"
-	  ],
 	  "dependencies": {
-	    "bootstrap": "~3.3.1",
-	    "jquery": "~2.1.3"
-	  },
+        "bootstrap": "latest",
+        "font-awesome": "latest",
+        "animate.css": "latest",
+        "angular": "latest"    
+      },
 	  "devDependencies": {
 	    "angular": "~1.3.8"
 	  }
@@ -101,23 +118,27 @@ Bower的基础使用，可以参考[这篇文章](http://segmentfault.com/a/1190
 	bower install jquery --save			//添加到dependencies
 	bower install angular --save-dev		//添加到devDependencies
 
-下面我们来编写一个示例页面，这里省略了HTML的头尾标记，只保留了body内的内容：
-	
-	<button>Animate Me!!</button>
-	<div style="background: red; height: 100px; width: 100px; position:absolute;"></div>
-	
-	<script src="../bower_components/jquery/dist/jquery.js"></script>
-	<script>
-	    $(document).ready(function () {
-	        $('button').click(function () {
-	            $('div').animate({left: '250px'});
-	        })
-	    });
-	</script>
+##使用Bower包
 
-我们发现，这里有一个问题是必须用 `../bower_components` 的相对定位方式才能找到相关的资源。解决方法是配合使用grunt，而grunt和bower天生就是应该一起使用的。本文不具体介绍grunt，感兴趣的可以去grunt的官网查看相关内容。
+下面我们来编写一个示例页面来引入我们需要的包：
+	
+	<!-- index.html -->
+	<!doctype>
+	<head>
+	    <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
+	    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+	    <link rel="stylesheet" href="libs/animate.css/animate.min.css">
+	
+	    <script src="libs/jquery/jquery.min.js"></script>
+	    <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
+	    <script src="libs/angular/angular.min.js"></script>
+	</head>
+	
+	...
 
-###Bower配置文件
+
+
+###其他配置信息
 
 Bower可以通过`.bowerrc`文件进行配置，它是一个JSON文件，你可以直接在项目的根目录创建该文件，通过该文件我们可以指定bower的依赖安装目录，网关服务器，超时连接等配置信息，该文件的详细配置参数的说明见[链接页面](http://bower.io/docs/config/)。内容如下：
 
@@ -133,10 +154,11 @@ Bower可以通过`.bowerrc`文件进行配置，它是一个JSON文件，你可�
 	  }
 	}
 
-###References
+##References
 
 1. http://bower.io/
 2. http://bower.io/docs/creating-packages/#bowerjson
 2. http://bower.io/docs/tools/
 3. http://segmentfault.com/a/1190000000349555
 4. http://bower.io/docs/config/
+5. https://scotch.io/tutorials/manage-front-end-resources-with-bower
