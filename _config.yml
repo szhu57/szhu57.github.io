@@ -1,7 +1,7 @@
 markdown: kramdown
 highlighter: pygments
 safe: false
-paginate: 5
+paginate: 10
 paginate_path: "page:num"
 permalink: /posts/:title.html
 exclude:
@@ -10,7 +10,7 @@ exclude:
 name: 晓风Well
 host: wwsun.github.com
 baseurl: http://wwsun.me/
-desc: 这里写的不是博客，而是分享的情怀
+desc: 在这里分享一些学习过程中的收获
 
 custom:
     category:
