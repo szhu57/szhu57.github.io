@@ -7,10 +7,10 @@ Born in 1990, now a student of Southeast University, and also a student of Monas
 
 Loving technology, programming, reading, and photographing. During the undergraduate, I majored Digital Media Technology, which is focused on the combination of technology and art, in addition to the computer courses, there are many design courses should be learned, like drawing, coloring, and 3D modeling.
 
-[View my resume](/resume.html)
+[View my resume](/RESUME.html)
 
 高中文科生，本科“艺术生”，现在工科生。 生于90年，现就读于东南大学，因参与东南大学计算机学院的`联合培养双硕士学位`计划，同时也就读于Monash University（澳大利亚，`USNEWS`最新全球排名第88位），硕士专业为计算机技术硕士（东大）、Master of Information Technology（Monash University, FIT）。研究方向为：大数据平台应用与开发、数据可视化、机器学习应用技术。
 
 喜欢技术与编程，业余爱好摄影与阅读。本科期间，所修专业为数字媒体技术（`工学学士`，隶属电气信息工程），该专业致力于培养技术与艺术融合的多元人才，涉猎设计、美术、摄影、电子、通信、计算机。目前主要学习兴趣在互联网应用开发、机器学习应用技术等。
 
-[查看个人简历](/resume.html)
+[查看个人简历](/RESUME.html)
