@@ -1,3 +1,4 @@
+---
 layout: post
 title: 从零开始开发MEAN栈单页面应用
 category: technique
