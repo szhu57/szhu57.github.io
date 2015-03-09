@@ -29,6 +29,7 @@ Born in 1990, now a student of Southeast University, and also a student of Monas
 ### Technical {#technical}
 
 1. Java / Design Patterns
+2. MySQL / MongoDB / Redis
 2. JavaScript / Node.js / AngularJS / jQuery
 3. Maven / Git / TDD
 4. Linux / Apache / Tomcat
