@@ -62,6 +62,14 @@ __Full List__
 
 ------
 
+### Open-source {#open-source}
+
+1. **Starter-node-angular**: A starter kit for MEAN Single Page Applications. [LINK](https://github.com/wwsun/starter-node-angular)
+2. **Worklight-itravel**: A mobile hybrid application based on IBM Worklight. [LINK](https://github.com/wwsun/worklight-itravel-mobile)
+3. **Monash-msearch**: A movie search engine based on Java REST API(Jersey) and many 3rd REST APIs. [LINK](https://github.com/wwsun/monash-msearch)
+
+------
+
 ### Footer {#footer}
 
 Weiwei SUN -- Blog: [wwsun.me](http://wwsun.me) -- (+86) 159-5172-7257
