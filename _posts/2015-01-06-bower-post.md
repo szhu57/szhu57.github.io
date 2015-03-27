@@ -154,6 +154,10 @@ Bower可以通过`.bowerrc`文件进行配置，它是一个JSON文件，你可�
 	  }
 	}
 
+## 使用Bower只下载你需要的文件
+
+这里请参考[链接](https://scotch.io/tutorials/only-grab-the-files-you-need-while-using-bower)。
+
 ##References
 
 1. http://bower.io/
@@ -162,3 +166,4 @@ Bower可以通过`.bowerrc`文件进行配置，它是一个JSON文件，你可�
 3. http://segmentfault.com/a/1190000000349555
 4. http://bower.io/docs/config/
 5. https://scotch.io/tutorials/manage-front-end-resources-with-bower
+6. https://scotch.io/tutorials/only-grab-the-files-you-need-while-using-bower
