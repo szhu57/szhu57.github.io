@@ -37,7 +37,7 @@ Deployd是一款出色的可跨平台的Web API引擎。它建立在Node.js和Mo
 	
 	http://localhost:5500/dashboard
 
-![](/img/posts/150403-dpd-dashboard.PNG)
+![deployd](/img/posts/150403-dpd-dashboard.PNG)
 	
 ### 创建数据结构
 
@@ -59,4 +59,4 @@ Deployd是一款出色的可跨平台的Web API引擎。它建立在Node.js和Mo
 最简单的方法是直接在浏览器输入`http://localhost:5500/products`来测试获得到的数据。一个更合适的方法是使用[Postman](https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm?hl=en)来测试，Postman是一个强大的REST API测试工具，它可以安装为Chrome的一个扩展应用。
 
 测试结果如下图所示：
-![](/img/posts/150403-dpd-postman.PNG)
+![postman](/img/posts/150403-dpd-postman.PNG)
