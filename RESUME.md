@@ -26,6 +26,13 @@ Born in 1990, now a student of Southeast University, and also a student of Monas
 
 -------
 
+### Offers {#offers}
+
+* __Alibaba GROUP (Hangzhou)__
+  : Frong-end Developer; Responsivity: html5 app & node.js app development; Techniques: html5/css3, AngularJS, Node.js.
+
+-------
+
 ### Technical {#technical}
 
 1. Java / Design Patterns
