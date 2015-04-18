@@ -4,7 +4,7 @@ title: 5个典型的JavaScript面试题
 category: knowledge
 ---
 
-我真正意义上接触JavaScript的时间并不长（大概14年10月开始），以前只是会拿来为网站加一些效果，比如会使用jQuery库执行一些简单的DOM操作。JavaScript是一门有意思的语言，入门很快，但是想要深入的理解却并不简单，比如JavaScript中的原型、面向对象。对当前的Web世界而言，JavaScript是一门你必须精通的语言，因此本借用一些面试题来回顾一下JavaScript中的典型知识点。
+JavaScript是一门有意思的语言，入门很快，但是想要深入的理解却并不简单，比如JavaScript中的原型、面向对象。对当前的Web世界而言，JavaScript是一门你必须精通的语言，因此本文借用一些面试题来回顾一下JavaScript中的典型知识点。
 
 <!--more-->
 
