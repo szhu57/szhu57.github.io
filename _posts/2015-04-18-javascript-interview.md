@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 5个典型的JavaScript面试题
+title: 5个经典的JavaScript面试题
 category: knowledge
 ---
 
