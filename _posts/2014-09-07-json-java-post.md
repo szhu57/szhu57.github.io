@@ -4,12 +4,13 @@ title: JSON Java Libraries
 category: technology
 ---
 
-###JSON
 21世纪初，Douglas Crockford寻找一种简便的数据交换格式，能够在服务器之间交换数据。当时通用的数据交换语言是XML，但是Douglas Crockford觉得XML的生成和解析都太麻烦，所以他提出了一种简化格式，也就是JSON。
 
 JSON, JavaScript Object Notation, 它是一种轻量级的数据交换格式，非常适合于服务器与JavaScript的交互。对消息通信而言，JSON的优势是比XML更简单，因而可以大大提高开发效率，代码也更为简单。
+
 <!--more-->
-###JSON语法
+
+## 基本语法
 JSON的语法格式非常简单，可以简单的概括如下：
 
 - 并列的数据之间用	","
@@ -46,23 +47,36 @@ Java对象/JSON之间的映射非常简单，只有两种数据结构：
 1. Map  用 { } 表示
 2. Array 用 [ ] 表示
 
-####Map
+### Map
+
 简单的说就是Java中的Map，名称-值对的形式给出，名称和值之间用“：”隔开，两个Map之间用“，”隔开，一般表示形式如下：
-{'key1':'value1','key2':'value2'}
 
+	{'key1':'value1','key2':'value2'}
 
-####Array
+### Array
+
 就是普通意义上的数组，一般形式如下：
-['arr1','arr2','arr3'];
 
-####要点：
+	['arr1','arr2','arr3'];
+
+### 要点：
 
 1. JSON的数据结构只有两种；
 2. 可以嵌套表示，比如Array中可以嵌套Object等；
 3. 记住：Object是以｛｝表示，Array是以[  ]表示；
 
-###Java with JSON
-有许多的Java库可以用来处理（解析或生成）JSON。Java中最基本的结构是对象，这些库将Java对象映射为JSON，并提供用于序列化和反序列化JSON到对象的方法。Jackson和Gson是建立JSON\对象映射的两个最流行的库。实际开发时可以选择一个你喜欢的，下面将介绍这两个库的具体使用方法。
+## Java with JSON
+
+### JSR 353
+JSR 353为处理JSON提供了官方的解决方案，并作为JEE 7 API的一部分被实现。因此，使用在Java中使用JSON的最合适的方法是使用JSR 353.其在包`javax.json`中，[点击查看API](http://docs.oracle.com/javaee/7/api/javax/json/package-summary.html)。这方面的内容请参考：
+
+1. [Creating JSON Data Using the Java JSON API (JSR 353)](http://www.javabeat.net/java-json-api-jsr-353/)
+2. [Java JSON Tutorial](http://www.java2s.com/Tutorials/Java/JSON/0100__JSON_Java.htm)
+2. [JSON Processing in Java EE 7 - Using Object Model API](http://www.javabeat.net/2013/10/json-processing-javaee-7-object-model-api/)
+3. [JSON Processing in Java EE 7 - Using Straeming API](http://www.javabeat.net/2013/10/json-processing-javaee-7-streaming-api/)
+
+### Others
+另外还有有许多的Java库可以用来处理（解析或生成）JSON。Java中最基本的结构是对象，这些库将Java对象映射为JSON，并提供用于序列化和反序列化JSON到对象的方法。Jackson和Gson是建立JSON\对象映射的两个最流行的库。实际开发时可以选择一个你喜欢的，下面将介绍这两个库的具体使用方法。
 
 GSON的项目主页为：
 > https://code.google.com/p/google-gson/
