@@ -28,8 +28,12 @@ Born in 1990, now a student of Southeast University, and also a student of Monas
 
 ### Offers {#offers}
 
+* __IBM CDL (Beijing)__
+  : Extreme Blue Project: Unique services for Mobile on Bluemix China
+
 * __Alibaba Group (Hangzhou)__
-  : Frong-end Developer: Node.js App development; Techniques: JavaScript, AngularJS, Node.js.
+  : Frong-end Developer: Node.js App development; Techniques: JavaScript, Node.js.
+
 
 -------
 
