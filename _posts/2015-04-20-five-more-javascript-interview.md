@@ -106,9 +106,13 @@ category: knowledge
 	3
 	2
 
-`setTimeout()`函数属于window对象，用来进行超时调用。它接受两个参数：要执行的代码和以毫秒表示的时间（即在执行代码前需要等待多时毫秒），但经过该事件后指定的代码不一定会执行。JavaScript是一个单线程序的解释器，因此一定时间内只能执行一段代码。为了控制要执行的代码，就有一个JavaScript任务队列。这些任务会按照它们添加到队列的顺序执行。
+要想知道为什么输出顺序是这样的，你就得深入的了解`setTimeout()`做了什么，以及浏览器的[事件循环](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/EventLoop)机制。
 
-`setTimeout()`的第二个参数告诉JavaScript再过多长时间把当前任务添加到队列中。如果队列是空的，那么添加的代码会立即执行；如果队列不是空的，那买就要等前面的代码执行完了以后再执行。
+`setTimeout()`函数属于window对象，用来进行超时调用。它接受两个参数：要执行的代码和以毫秒表示的时间（即在执行代码前需要等待多时毫秒）。JavaScript是一个单线程序的解释器，因此同一时间内只能执行一段代码。为了控制要执行的代码，就有一个JavaScript任务队列。这些任务会按照它们添加到队列的顺序执行。
+
+`setTimeout()`在指定时间后将任务插入任务队列。如果队列是空的，那么添加的代码会立即执行；如果队列不是空的，那么就要等前面的代码执行完了以后再执行。所以关于计时器你需要记住的是：
+
+> 指定的时间间隔表示何时将定时器的代码添加到队列，而不是何时实际的执行代码。
 
 因此，当调用`setTimeout()`时，即使延迟被设定为0，其回调也会被插入到队列中。回调处于队列中，直到被JS引擎分配到它，才会被执行。也就是说，即使`setTimeout`的延迟为0，其回调也会被加入到那些没有延迟的函数队列之后。
 
@@ -156,3 +160,7 @@ category: knowledge
 ### 声明
 
 本文翻译自： http://www.sitepoint.com/5-javascript-interview-exercises/
+
+## References
+
+1. https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/EventLoop
