@@ -15,7 +15,9 @@ title: Weiwei SUN Resume
 
 ### Profile {#profile}
 
-Born in 1990, now a student of Southeast University, and also a student of Monash University(Australia), double master degree of Computer Technology and Information Technology. The research interests of mine are database technology, data visualization, and application of machine learning. Find a job/internship in R&D department of IT companies.
+Born in 1990, now a student of Southeast University, and also a student of Monash University(Australia), double master degree of Computer Technology and Information Technology. Loving technology, programming, reading, and photographing. The research interests of mine are database technology, data visualization, and application of machine learning. 
+
+I will Graduate in June 2016, expect the internship or full-time job in Full-stack Web Development or Big Data Platform Development.
 
 ------
 
@@ -26,15 +28,15 @@ Born in 1990, now a student of Southeast University, and also a student of Monas
 
 -------
 
-### Offers {#offers}
+### Internship offers {#offers}
 
-* __mogujie.com (Hangzhou)__
+* __mogujie.com (May, 2015, Hangzhou)__
   : Data Platform Engineer
 
-* __IBM CDL (Beijing)__
+* __IBM CDL (May, 2015, Beijing)__
   : Extreme Blue Project: Unique services for Mobile on Bluemix China
 
-* __Alibaba Group (Hangzhou)__
+* __Alibaba Group (March, 2015, Hangzhou)__
   : Node.js Developer: real-time message/communication center
 
 
@@ -42,11 +44,11 @@ Born in 1990, now a student of Southeast University, and also a student of Monas
 
 ### Technical {#technical}
 
-1. Java / Design Patterns
-2. MySQL / MongoDB
-2. JavaScript / Node.js / AngularJS / jQuery
+1. Linux / Windows
+2. Java / Design Patterns
+2. JavaScript / Node.js / AngularJS
+3. MySQL / MongoDB
 3. Maven / Git / Bower / Grunt
-4. Linux + Apache / Tomcat / GlassFish
 
 ------
 
@@ -76,11 +78,11 @@ __Full List__
 
 ------
 
-### Open-source {#open-source}
+### Contact {#contact}
 
-1. **Starter-node-angular**: A starter kit for MEAN Single Page Applications. [LINK](https://github.com/wwsun/starter-node-angular)
-2. **Worklight-itravel**: A mobile hybrid application based on IBM Worklight. [LINK](https://github.com/wwsun/worklight-itravel-mobile)
-3. **Monash-msearch**: A movie search engine based on Java REST API(Jersey) and many 3rd REST APIs. [LINK](https://github.com/wwsun/monash-msearch)
+1. Github: https://github.com/wwsun
+2. Weibo: http://weibo.com/234170023
+3. Twitter: https://twitter.com/wsun38
 
 ------
 
