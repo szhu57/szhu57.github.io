@@ -10,7 +10,7 @@ exclude:
 name: 晓风Well
 host: wwsun.github.com
 baseurl: http://wwsun.me/
-desc: 在这里分享一些学习过程中的收获
+desc: To be Full-Stack
 
 custom:
     category:
