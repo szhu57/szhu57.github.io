@@ -4,8 +4,8 @@ category: works
 icon: code-fork
 tags: [node.js, AngularJS, hadoop, restful, mongoDB]
 figures:
-  - src: "/img/project/distributed-vis.jpg"
-    height: 180
+  - src: "/img/project/distributed-vis.png"
+    height: 160
 public: false
 ---
 
