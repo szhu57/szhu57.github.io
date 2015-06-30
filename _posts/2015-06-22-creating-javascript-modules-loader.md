@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 从零开始构建实现一个JavaScript模块化加载器
+title: 从零开始构建JavaScript模块化加载器
 category: technique
 ---
 
