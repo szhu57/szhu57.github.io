@@ -78,6 +78,12 @@ __Full List__
 
 ------
 
+### Activities (#activities)
+
+- Join the Book Review Plan of [PACKT](https://www.packtpub.com) Press, MongoDB for Java　Developers
+
+------
+
 ### Contact {#contact}
 
 1. Github: https://github.com/wwsun
