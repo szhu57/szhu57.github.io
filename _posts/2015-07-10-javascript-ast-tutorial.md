@@ -18,7 +18,7 @@ category: technique
 
 ![JavaScript AST](/img/posts/0710-ast.PNG)
 
-我们可以发现，程序代码本身可以被映射称为一颗语法树，而通过操纵语法树，我们能够精准的获得程序代码中的某个节点。例如声明语句，赋值语句，而这是用正则表达式所不能准确体现的地方。JavaScript的语法解析器[Espsrima](http://esprima.org/)提供了一个[在线解析的工具](http://esprima.org/demo/parse.html)，你可以借助于这个工具，将JavaScript代码解析为一个JSON文件表示的树状结构。
+我们可以发现，程序代码本身可以被映射成为一棵语法树，而通过操纵语法树，我们能够精准的获得程序代码中的某个节点。例如声明语句，赋值语句，而这是用正则表达式所不能准确体现的地方。JavaScript的语法解析器[Espsrima](http://esprima.org/)提供了一个[在线解析的工具](http://esprima.org/demo/parse.html)，你可以借助于这个工具，将JavaScript代码解析为一个JSON文件表示的树状结构。
 
 ### 有什么用
 
