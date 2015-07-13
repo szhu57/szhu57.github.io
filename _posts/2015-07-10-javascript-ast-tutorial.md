@@ -1,6 +1,6 @@
 ---
 layout: post
-title: JavaScript的语法解析与抽象语法树
+title: JavaScript的抽象语法树与语法解析
 category: technique
 ---
 
