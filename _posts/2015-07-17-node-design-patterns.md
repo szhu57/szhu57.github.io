@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 基本的Node.js设计模式
+title: 常用的Node.js设计模式
 category: technique
 ---
 
