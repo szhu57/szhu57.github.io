@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "To be Knowledgeable and Full-Stack, WWSUN"
+title: "Weiwei SUN's Blog'"
 ---
 {% include JB/setup %}
 
@@ -12,31 +12,34 @@ title: "To be Knowledgeable and Full-Stack, WWSUN"
 {% if post.category != "courses" %}
 {% if post.category != "activities" %}
 {% capture summary %}{{post.content | split:'<!--more-->' |first }}{% endcapture%}
-        <article class="post type-post hentry">
-            <div class="blog-item-wrap">
-                <div class="post-inner-content">
-                    <header class="entry-header page-header">
-                        <h2 class="entry-title"><a href="{{ BASE_PATH }}{{ post.url }}" rel="bookmark">{{ post.title }}</a></h2>
-                        <div class="entry-meta">
-                        <span class="posted-on"><i class="fa fa-calendar"></i> 
-			<a rel="bookmark"><time class="entry-date published">{{ post.date | date: "%b %-d, %Y" }}</time></a>
-			</span>
-			<span class="byline"> <i class="fa fa-user"></i> 
-				<span class="author vcard"><a class="url fn n" href="http://bootstrapbay.com/blog/author/gimmer/">Weiwei SUN</a></span>
-			</span>				
-                        </div><!-- .entry-meta -->
-                    </header><!-- .entry-header -->
 
-                    <div class="entry-content">{{summary}}</div>
-		    <!-- .entry-content -->
-		  {% if summary != post.content %}
-			<p class="clearfix">
-			    <a href="{{ BASE_PATH }}{{ post.url }}" rel="nofollow" class="btn btn-primary read-more">Read more...</a>
-			</p>
-    		  {% endif %}  
-                </div>
-            </div>
-        </article>
+<article class="post type-post hentry">
+  <div class="blog-item-wrap">
+    <div class="post-inner-content">
+      <header class="entry-header page-header">
+        <h2 class="entry-title">
+          <a href="{{ BASE_PATH }}{{ post.url }}" rel="bookmark">{{ post.title }}</a>
+        </h2>
+        <div class="entry-meta">
+          <span class="posted-on">
+            <i class="fa fa-calendar"></i>
+            <a rel="bookmark"><time class="entry-date published">{{ post.date | date: "%b %-d, %Y" }}</time></a>
+          </span>
+          <span class="byline">
+            <i class="fa fa-user"></i>
+            <span class="author vcard">
+              <a class="url fn n" href="http://bootstrapbay.com/blog/author/gimmer/">Weiwei SUN</a>
+            </span>
+          </span>
+        </div>
+        <!-- .entry-meta -->
+      </header>
+      <!-- .entry-header -->
+      <div class="entry-content">{{summary}}</div>
+      <!-- .entry-content -->{% if summary != post.content %} {% endif %}</div>
+  </div>
+</article>
+
 {% endif %}
 {% endif %}
 {% endif %}
