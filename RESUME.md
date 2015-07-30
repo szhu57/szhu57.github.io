@@ -21,8 +21,8 @@ I will be Graduate in March 2017, expect the internship or full time job in Java
 
 ## Education
   
-  **DOUBLE MASTER DEGREE|SEPTEMBER 2014|SOUTHEAST UNIVERSITY**
 
+ **DOUBLE MASTER DEGREE|SEPTEMBER 2014|SOUTHEAST UNIVERSITY**
 
 * Major: Computer Technology(Southeast University)
 * Minor: Information Technology(Monash University, a top University of Australia)
