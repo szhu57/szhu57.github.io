@@ -7,7 +7,7 @@ permalink: /posts/:title.html
 exclude:
   - README.md
 
-name: szhu
+name: Shuai ZHU
 host: szhu57.github.com
 baseurl: http://szhu57.xyz/
 desc: I'm still learning
