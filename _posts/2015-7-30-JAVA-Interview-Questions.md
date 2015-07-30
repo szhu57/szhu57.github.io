@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java常问面试题总结
-category: database
+category: knowledge
 ---
 
 从五六月份就开始着手找实习，我想做的方向是java。买了一本《java面试宝典》看着还可以吧，基本上重要的java内容都覆盖了。 但是觉得不太全
