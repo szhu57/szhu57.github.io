@@ -7,5 +7,5 @@ I am a student of Southeast University and also a student of Moansh University,d
 
 [My CV/ 个人简历](/RESUME.html)
 
-[My Project List/ 项目列表](http://szhu57/project.html)
+
 
