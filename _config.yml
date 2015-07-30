@@ -34,9 +34,9 @@ custom:
 
 meta:
     author:
-        name: Shuai Zhu
+        name: Shuai ZHU
         email: szhu57.outlook.com
-        disqus: szhu57                             # Disqus缩略标识
+        disqus: szhu                             # Disqus缩略标识
         gcse: 017273734144320215856:r-n1xry8woo     # Google自定义搜索标识ID
         github: szhu57                              # GitHub账号
         gravatar: 48b4b2d677d28780288ab93737230019  # Gravatar头像标识
