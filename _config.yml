@@ -7,10 +7,10 @@ permalink: /posts/:title.html
 exclude:
   - README.md
 
-name: 晓风Well
-host: wwsun.github.com
-baseurl: http://wwsun.me/
-desc: To be Full-Stack
+name: szhu
+host: szhu57.github.com
+baseurl: http://szhu57.xyz/
+desc: I'm still learning
 
 custom:
     category:
@@ -34,11 +34,11 @@ custom:
 
 meta:
     author:
-        name: Weiwei SUN
-        email: ww.sun@outlook.com
-        disqus: wwsun                               # Disqus缩略标识
+        name: Shuai Zhu
+        email: szhu57.outlook.com
+        disqus: szhu57                             # Disqus缩略标识
         gcse: 017273734144320215856:r-n1xry8woo     # Google自定义搜索标识ID
-        github: wwsun                               # GitHub账号
+        github: szhu57                              # GitHub账号
         gravatar: 48b4b2d677d28780288ab93737230019  # Gravatar头像标识
 
     disqus: disqus.com/embed.js                     # Disqus评论的JS地址
