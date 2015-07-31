@@ -10,7 +10,7 @@ category: database
 
 ## Markdown之缘起
 Markdown 是我在接触到Git的时候了解的。每一个repo Git上面都会包含一个REDEME.md 文件，并在会在每一个repo下面呈现出如下的显示。
-
+<!--more-->
 <<<<<<< HEAD
 ![md](/images/md.PNG)
 =======

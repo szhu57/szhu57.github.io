@@ -6,7 +6,9 @@ category: database
 ## Git的学习
 这一周在很努力的学好Git，利用Git上面的资源去提升自己的知识水平，所以对有关Git方面的东西都很上心。经过这几天的捣鼓，弄明白了Git是如
 
-何使用的，也成功的把我之前做过的Assignment上传了上去。有关于Git的学习我主要是参考了[廖雪峰的博客](http://www.liaoxuefeng.com/)
+何使用的，也成功的把我之前做过的Assignment上传了上去。
+   <!--more-->
+有关于Git的学习我主要是参考了[廖雪峰的博客](http://www.liaoxuefeng.com/)
 
 我觉得她写的很详细，也很容易去学。
 
