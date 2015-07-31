@@ -11,6 +11,7 @@ name: Shuai ZHU
 host: szhu57.github.com
 baseurl: http://szhu57.xyz/
 desc: I'm still learning
+avatar: https://raw.githubusercontent.com/szhu57/szhu57.github.io/master/img/site/logo.png
 
 custom:
     category:
