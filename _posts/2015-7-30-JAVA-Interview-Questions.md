@@ -4,7 +4,7 @@ title: Java常问面试题总结
 category: knowledge
 ---
 
-从五六月份就开始着手找实习，我想做的方向是java。买了一本《java面试宝典》看着还可以吧，基本上重要的java内容都覆盖了。 但是觉得不太全面，今天起决定去总结在面试中可能会问到的java知识，一，不仅可以系统的梳理我所学的java知识，二，为以后的面试可以做充足的准备。
+从五六月份就开始着手找实习，我想做的方向是java。买了一本《java面试宝典》看着还可以吧，基本上重要的java内容都覆盖了。 但是觉得不太全面,以为所参加的面试所遇到的题目和从网上所搜集的题目去总结在面试中可能会问到的java知识，一，不仅可以系统的梳理我所学的java知识，二，为以后的面试可以做充足的准备。
 <!--more-->
 接下来我围绕着面向对象编程和其特征来总结，主要是java的功能、集合、垃圾回收器、异常处理、JDBC、Remote Method Invocation(RMI)、Servlet和JSP。
 
@@ -301,9 +301,39 @@ Collection 和 `Map`的区别在于容器内每个槽所存储的元素个数不
 
 * `Map`子类：
 
--- HashMap： 
-
+-- HashMap：
 -- HashTable
 
 -- TreeMap
-   
+
+**17.HashMap的原理？**
+
+`HashpMap`用于存储一个键值对。需要一个hash函数，和`hashCode`,`equals`方法去实现添加（put)和取出元素。
+当调用`put`方法的时候，`HashMap`会计算出键的值所存储的位置。如果键已经存在，那么修改新值。
+
+**18. hashCode（）和equals（）方法各有什么用途？**
+
+在java中， HashMap利用`hashCode`和`equals`方法来判断键值对是否重复。更具体来说，`hashCode`用来决定
+键所存储的位置。由于不同的键可能会产生相同的哈希值，这个时候通常需要利用`equals`方法去比较其值是否相同（equals方法通常要被复写）。
+
+**19.Array和ArraList的区别**
+
+`Arrays`：可以包含基本数据类型和对象，而`ArrayList`里只能是对象。
+
+`Arrays`有固定的大小，而`ArrayList`是动态分配的
+
+`ArrayList`提供更多的方法，比如`addAll`,`removeAll`,`iterator`等。
+
+对于基本的数据类型，在`ArrayList`集合中被自动装箱，效率比`Array`要低。
+
+**20. Comparable 和Comparator的区别？**
+
+`Comparable`接口里只包含一个方法`compareTo`.这个方法是用来比较两个对象用于排序。当所要比较的对象比当前对象要小，等于
+小于，则相应的返回负数，零和整数。（这是实现类的内部比较类必须要实现Comparable接口）
+
+`Comparator`是一个类的外部比较器，有两个方法`Compare`和`equals`.
+**21 final关键词的用法 **
+
+* final 可以修饰成员变量。 变量一旦被初始化就不可以被改变。 初始化两种方式,一是定义处，二是构造函数中，两者只能选择其一。
+* final 修饰方法。 所修饰的方法不可以被子类覆写。
+* final 修饰类。 一个final类是无法被任何类继承的。（可以实例化） 一个类不能同时被final和abstract所修饰，因为别abstract所修饰的类需要有子类提供具体的实现方式而final不允许有子类。
