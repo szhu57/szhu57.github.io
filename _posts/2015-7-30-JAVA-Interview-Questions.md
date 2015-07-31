@@ -255,7 +255,7 @@ The Java Runtime Environment（JRE）是JVM执行java程序的基础。 它也�
 
 * `Terminated`: 线程执行结束
 
-![Thread_State](/img/posts/Thread.png)
+![Thread_State](/img/posts/Thread_State.png)
 
 Source: <http://www.tutorialspoint.com/java/java_multithreading.html>
 
