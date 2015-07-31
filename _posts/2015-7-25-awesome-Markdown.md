@@ -11,15 +11,12 @@ category: database
 ## Markdown之缘起
 Markdown 是我在接触到Git的时候了解的。每一个repo Git上面都会包含一个REDEME.md 文件，并在会在每一个repo下面呈现出如下的显示。
 <!--more-->
-<<<<<<< HEAD
-![md](/images/md.PNG)
-=======
-![md]({{ site.baseurl }}/images/md.PNG)
->>>>>>> 3029cbc63d2e1c1cb76458cbbd1da56181914f91
+
+![md](/img/posts/md.PNG)
 
 当时很好奇，看到这种.md格式的竟然可以这样去显示。于是试着去修改，当我打开之后很是惊讶，竟然是显示着用着我不熟悉的标记去表示。如下
 
-![md1]({{ site.baseurl }}/images/md1.PNG)
+![md1](/img/posts/md1.PNG)
 
 其中可以看到有"\*","\+",等等。当时很是纳闷，为何如此简单给个符号能够去表示如此格式文本。深入了解以后方知是Markdown语言。也试着用Markdown语言去书写自己在Git上面的README．ｍｄ同时也利用了它写了一份不错的英文简历。于是深感Markdown的魅力无穷。今天就很浅显的去谈一谈为何Markdown的awesome。
 
@@ -66,13 +63,13 @@ Markdown用了非常少的符号就可以轻松的搞定，先预告一下。
 使用‘#’的个数去表示各个标题。共有六个标题一个‘#’表示一级标题... 如下图
 
 
-![md3]({{ site.baseurl }}/images/md3.PNG)
+![md3](/img/posts/md3.PNG)
 
 ### 列表
 
 列表的表示方式有多重，可以用\+,\-,\*来表示。如下图（用\*表示，你可尝试其他两种方式）
 
-![md2]({{ site.baseurl }}/images/md2.PNG)
+![md2](posts/img/md2.PNG)
 
 ### 分割线
 
@@ -127,7 +124,7 @@ Markdown 可以利用反斜杠来插入一些在语法中有其它意义的符�
 ### HTML
  在MarkdownPad编辑器中，可以按`F6`预览md文件的HTML格式。如下图
 
-![md4]({{ site.baseurl }}/images/md4.PNG)
+![md4](/img/posts/md4.PNG)
 
 或者直接利用`export`导入HTML格式
 
@@ -135,7 +132,7 @@ Markdown 可以利用反斜杠来插入一些在语法中有其它意义的符�
 
 同样有两种方式在预览HTML格式的时候，在浏览器中点击‘打印’，然后通过设置输出PDF格式。如下图：
 
-![md5]({{ site.baseurl }}/images/md5.PNG)
+![md5](/img/posts/md5.PNG)
 
 或者直接利用 `export`导入。
 
