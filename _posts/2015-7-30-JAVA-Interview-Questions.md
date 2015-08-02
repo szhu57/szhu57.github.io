@@ -267,13 +267,13 @@ Source: <http://www.tutorialspoint.com/java/java_multithreading.html>
 	
 	 synchronized(anObject) { ... }
 
-**15**. **什么是死锁？ **
+**15 什么是死锁?**
 
 当两个进程相互等待对方结束释放资源，其结果是两个进程无穷的等待下去。
 
 ## Java Collections
 
-**16.** **几个基本集合框架？**
+**16 几个基本集合框架？**
 
 java容器类一共有两种类型：`Collection`和`Map`.
 
@@ -333,7 +333,7 @@ Collection 和 `Map`的区别在于容器内每个槽所存储的元素个数不
 
 `Comparator`是一个类的外部比较器，有两个方法`Compare`和`equals`.
 
-**21 final关键词的用法 **
+**21 final关键词的用法**
 
 * final 可以修饰成员变量。 变量一旦被初始化就不可以被改变。 初始化两种方式,一是定义处，二是构造函数中，两者只能选择其一。
 * final 修饰方法。 所修饰的方法不可以被子类覆写。
