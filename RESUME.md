@@ -42,17 +42,24 @@ I will be Graduate in March 2017, expect the internship or full time job in Java
 ##Technical 
 
 * Java/JavaScript
+* HTML
 * MySQL
 * Git/Markdown
 
 ## Projects
+
+**Personalised Movie Search Engine**
+
+Implement a  personalised search application  for Movie DVD on **2015.7-2015.8**. which will invoke and interact with several real-word web service and search engine. Web service integrated with local RESTful web service and third party RESTful API web service, such as Flickr,Youtube,Google,Twitter and etc.. An interesting course project for learning web service. Project address:<https://github.com/szhu57/movie-search>
+
+
+
+
 **HOTELBOOKING BROKER SYSTEM | MONASH UNIVERSITY**
 
-Lead technique implementation **2015.4-2015-5** A course project, refers to developing a distributed hotel booking system. A Hotel Booking Broker is an online system that allows users to search for, compare rate, check availability, and make bookings at the hotels conneted to the service. The technique contain CORBA and RMI are applied between client and server. Project address:<https://github.com/szhu57>
+Lead technique implementation **2015.4-2015-5** A course project, refers to developing a distributed hotel booking system. A Hotel Booking Broker is an online system that allows users to search for, compare rate, check availability, and make bookings at the hotels connected to the service. The technique contain CORBA and RMI are applied between client and server. Project address:<https://github.com/szhu57/monash-hotelbooking>
 
-**EMPLOYEE SALARY MANAGEMENT SYSTEM**|**UNDERGRADUATE PROJECT**
 
-Lead technique implementation**2013.11-2013.12** Basic course design and implementation using C language.The main function of this system is CRUD.
 
 
 ## Contact
