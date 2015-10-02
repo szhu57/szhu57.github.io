@@ -136,7 +136,8 @@ category: database
 	        callback(options);
 	    }
 	}
-如果没有去检查，那么`getInput`所调用的回调函数可能不是一个函数，如果传递给getInput函数的参数不是一个函数，那么则会发生运行时异常。
+
+如果没有去检查那么`getInput`所调用的回调函数可能不是一个函数，如果传递给getInput函数的参数不是一个函数，那么则会发生运行时异常。
 
 ###  Callback 函数中作为方法去使用有this对象所产生的问题
 
