@@ -1,6 +1,6 @@
 ---
 layout: post
-title: JavaScipt Callback Function
+title: JavaScript Callback Function
 category: database
 ---
 （**学习JavaScript高阶函数，也就是回调函数**）
